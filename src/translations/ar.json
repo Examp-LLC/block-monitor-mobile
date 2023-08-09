@@ -1,0 +1,244 @@
+{
+  "auth": {
+    "errors": {
+      "accountExist": "تم استيراد الحساب بالفعل",
+      "serverErrorAddingAccount": "خطأ في الخادم: لم تتم إضافة الحساب.",
+      "incorrectAddress": "عنوان BURST غير صحيح",
+      "incorrectPasscode": "رمز المرور غير صحيح",
+      "incorrectPassphrase": "عبارة مرور غير صحيحة",
+      "insecurePin": "رمز PIN غير آمن ، الحد الأدنى الموصى به هو {{length}}",
+      "noUnstoppableAddressesFound": "لم يتم العثور على عناوين مدعومة.",
+      "serverErrorSavingReceipt": "خطأ في الخادم: تعذر حفظ الإيصال.",
+      "missingDeviceToken": "يجب تمكين الإخطارات الفورية لاستخدام هذا التطبيق. يرجى إلغاء التثبيت وإعادة التثبيت ، وقبول دفع الإخطارات.",
+      "serverErrorFetchingReceipts": "خطأ في الخادم: تعذر جلب الإيصالات."
+    },
+    "modals": {
+      "enterPasscode": {
+        "passcodeHint": "أدخل رمز المرور",
+        "forgotPin": "نسيت رقم التعريف الشخصي؟",
+        "confirmReset": "هل تريد إزالة جميع الحسابات وإعادة تعيين رقم التعريف الشخصي؟",
+        "welcomeBack": "مرحبا بعودتك"
+      },
+      "setPasscode": {
+        "enterAgain": "أدخل رمز المرور مرة أخرى",
+        "passcodeHint": "يرجى تعيين رمز مرور لتأمين جهازك"
+      },
+      "currencyList": {
+        "coinbaseHint": "إذا كان لديك أي من هذه الأشياء في Coinbase ، فيمكن لـ Block Monitor مراقبتها.",
+        "fullySupported": "بلوكشين مدعومة بالكامل",
+        "header": "العملات المدعومة",
+        "supportedViaCoinbase": "مدعوم عبر Coinbase"
+      },
+      "purchase": {
+        "equation": "{{max}} عنوان (عناوين) × {{total}} عملة",
+        "goBack": "عد",
+        "hint1": "يمكنك الإلغاء في أي وقت",
+        "hint2": "وفر 10٪",
+        "hint3": "وفر 20٪",
+        "monthly": "شهريا - {{price}}",
+        "notReadyYet": "ليست مستعدة بعد؟",
+        "sixMonths": "6 أشهر - {{price}}",
+        "tryFree": "الرجاء الترقية لفتح المراقبة النشطة",
+        "viewCurrencyList": "عرض قائمة العملات",
+        "watchUpTo": "شاهد ما يصل إلى {{max}} من العناوين",
+        "yearly": "سنويًا - {{price}}"
+      }
+    },
+    "passcode": {
+      "passcode": "رمز عبور"
+    },
+    "screens": {
+      "accounts": {
+        "addAccount": "إضافة حساب",
+        "createAccount": "إصنع حساب",
+        "noAccounts": {
+          "hint": "يرجى إضافة حساب للبدء.",
+          "title": "أهلا بك"
+        },
+        "title": "حسابات"
+      },
+      "accountDetails": {
+        "noTransactions": {
+          "title": "لا يوجد تحويلات"
+        },
+        "copiedSuccessfully": "تم نسخ العنوان بنجاح.",
+        "copy": "نسخ"
+      },
+      "addAccount": {
+        "createAccount": "إصنع حساب",
+        "title": "إضافة حساب",
+        "selectCurrency": "اختر العملة",
+        "selectedCurrency": "العملة المختارة",
+        "address": "أدخل عنوان حسابك",
+        "hint": "ليست عبارة مرورك!",
+        "success": "تمت إضافة الحساب (الحسابات) بنجاح.",
+        "addToken": "إضافة رمز / عنوان العقد؟",
+        "tokenAddress": "عنوان الرمز / العقد",
+        "tokenDecimals": "الكسور العشرية",
+        "isEthValidator": "مدقق ETH 2.0 (فهرس أو مفتاح عام)"
+      },
+      "createAccount": {
+        "createAccount": "إصنع حساب",
+        "enterPin": "أدخل رقم التعريف الشخصي",
+        "enterPinHint": "أدخل رمز PIN لتأمين هذا الحساب. يتم استخدام رقم التعريف الشخصي للتحقق من الإجراءات التي تم اتخاذها مع حسابك.",
+        "generateSeed": "توليد البذور",
+        "generatedPercent": "تاريخ الإنشاء: {{percent}}٪",
+        "howToGenerate": "حرك إصبعك عبر المنطقة لإنشاء بذرة عشوائية.",
+        "notePassphrase": "ملاحظة عبارة المرور",
+        "notePassphraseHint": "قم بتدوين عبارة المرور الخاصة بك. عبارة المرور هي المفتاح الرئيسي لحسابك. لذلك ، حافظ على عبارة المرور الخاصة بك دائمًا آمنة وخاصة!",
+        "notePassphraseHint2": "لا نقوم بتخزين عبارة المرور حتى على جهازك ، لذلك لا يمكننا استعادة الوصول إلى الحساب. ملاحظة ذلك!",
+        "pinPlaceholder": "دبوس",
+        "step": "الخطوة {{step}} / 4",
+        "title": "إصنع حساب"
+      },
+      "importAccount": {
+        "activeAccount": "حساب نشط",
+        "activeAccountHint": "يتم استخدام الحسابات النشطة لإجراء معاملات BURST. يتطلب من المستخدم إنشاء عبارة مرور أو تقديم واحدة. يتطلب من المستخدم إنشاء رقم تعريف شخصي للمعاملات. يتم استخدام عبارة المرور مرة واحدة محليًا فقط لتشفير مفتاحك الخاص ؛ لا يتم تخزينها في أي مكان.",
+        "import": "استيراد",
+        "passiveAccountHint": "الحسابات السلبية مفيدة إذا كنت تعرف عنوان BURST ، لكنك لا تنوي إجراء أي معاملات. يضيف زيادة الأمن. يمكن تحويله إلى حساب نشط في أي وقت.",
+        "title": "حساب الاستيراد",
+        "showPassphrase": "إظهار عبارة المرور"
+      },
+      "notificationConfig": {
+        "header": "تم تشغيل الإشعار بواسطة:",
+        "option0": "زيادة الرصيد",
+        "option1": "انخفاض الرصيد",
+        "option2": "على حد سواء",
+        "option3": "مطلقا",
+        "successBody": "تم حفظ إعداداتك.",
+        "successHeader": "تم تحديث الإعدادات"
+      }
+    }
+  },
+  "core": {
+    "actions": {
+      "add": "أضف",
+      "cancel": "إلغاء",
+      "create": "خلق",
+      "next": "التالى",
+      "ok": "حسنا",
+      "save": "حفظ",
+      "back": "عودة",
+      "submit": "إرسال"
+    },
+    "currency": {
+      "BTC": {
+        "name": "BTC",
+        "value": "₿ {{value}}"
+      },
+      "BURST": {
+        "name": "BURST",
+        "value": "Ƀ {{value}}"
+      },
+      "USD": {
+        "name": "USD",
+        "value": "$ {{value}}"
+      },
+      "available": "يتوفر {{x}} من {{y}}"
+    },
+    "dates": {
+      "months": {
+        "short": {
+          "JAN": "يناير",
+          "FEB": "فبراير",
+          "MAR": "مارس",
+          "APR": "أبريل",
+          "MAY": "مايو",
+          "JUN": "يونيو",
+          "JUL": "يوليو",
+          "AUG": "أغسطس",
+          "SEP": "سبتمبر",
+          "OCT": "أكتوبر",
+          "NOV": "نوفمبر",
+          "DEC": "ديسمبر"
+        }
+      }
+    },
+    "layout": {
+      "preventBackButton": {
+        "alertMessage": "ستفقد المعلومات",
+        "alertTitle": "هل أنت واثق؟"
+      }
+    },
+    "screens": {
+      "home": {
+        "accountsList": "قائمة الحسابات",
+        "recentTransactions": "التحويلات الاخيرة",
+        "title": "جميع الحسابات",
+        "allAccounts": "جميع الحسابات"
+      },
+      "loading": {
+        "loadingText": "جار التحميل..."
+      }
+    }
+  },
+  "models": {
+    "account": {
+      "address": "تبوك",
+      "id": "بطاقة تعريف",
+      "passphrase": "عبارة المرور",
+      "pin": "دبوس",
+      "title": "الحساب"
+    }
+  },
+  "transactions": {
+    "screens": {
+      "receive": {
+        "title": "تسلم",
+        "recipient": "مستلم",
+        "generate": "إنشاء رمز الاستجابة السريعة",
+        "immutable": "غير قابل للتغيير"
+      },
+      "send": {
+        "amountNQT": "كمية",
+        "feeNQT": "الرسوم",
+        "from": "من عند",
+        "selectAccount": "حدد حسابًا",
+        "sent": "أرسلت!",
+        "title": "إرسال",
+        "button": "مرر للإرسال",
+        "to": "إلى",
+        "total": "الإجمالي: Ƀ {{value}}",
+        "noPublicKey": "يرجى تأكيد العنوان قبل الإرسال.",
+        "invalidAddress": "هذا العنوان غير صالح.",
+        "zilOutage": "تعذر الجلب من واجهة برمجة تطبيقات ZIL.",
+        "success": "تم إرسال {{amount}} BURST بنجاح إلى {{address}}.",
+        "failure": "فشل إرسال BURST. يرجى التحقق من إدخالاتك وحاول مرة أخرى."
+      },
+      "scan": {
+        "title": "مسح رمز الاستجابة السريعة BURST"
+      }
+    }
+  },
+  "settings": {
+    "screens": {
+      "settings": {
+        "title": "الإعدادات",
+        "erase": "محو جميع الحسابات وإعادة تعيين PIN",
+        "confirmReset": "هل أنت واثق؟ لا يمكنك التراجع عن هذا الإجراء.",
+        "confirmErase": "تأكيد - محو وإعادة تعيين",
+        "changeLanguage": "اختار اللغة",
+        "copyright": "حقوق الطبع والنشر © بلانكيي",
+        "getSupport": "احصل على الدعم",
+        "appMustRestart": "يجب إعادة تشغيل التطبيق",
+        "restartNow": "اعد البدء الان",
+        "about": "حول",
+        "attributions": "السمات",
+        "manageSubscription": "إدارة الاشتراك",
+        "privacy": "سياسة الخصوصية",
+        "terms": "الأحكام والشروط",
+        "restoreSubscription": "استعادة الاشتراك",
+        "general": "عام"
+      }
+    }
+  },
+  "home": {
+    "screens": {
+      "welcome": {
+        "emptyAddresses": "يبدو أن عناوينك فارغة",
+        "zeroBalance": "رصيد صفري",
+        "grossBalance": "الرصيد الإجمالي"
+      }
+    }
+  }
+}

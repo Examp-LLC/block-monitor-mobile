@@ -1,0 +1,244 @@
+{
+  "auth": {
+    "errors": {
+      "accountExist": "Account già importato",
+      "serverErrorAddingAccount": "Errore del server: account non aggiunto.",
+      "incorrectAddress": "Indirizzo BURST errato",
+      "incorrectPasscode": "Passcode errato",
+      "incorrectPassphrase": "Passphrase errata",
+      "insecurePin": "PIN non sicuro, caratteri {{length}} consigliati",
+      "noUnstoppableAddressesFound": "Nessun indirizzo supportato trovato.",
+      "serverErrorSavingReceipt": "Errore del server: impossibile salvare la ricevuta.",
+      "missingDeviceToken": "Le notifiche push devono essere abilitate per utilizzare questa app. Disinstalla, reinstalla e accetta le notifiche push.",
+      "serverErrorFetchingReceipts": "Errore del server: impossibile recuperare le ricevute."
+    },
+    "modals": {
+      "enterPasscode": {
+        "passcodeHint": "Inserire il codice di accesso",
+        "forgotPin": "Hai dimenticato il PIN?",
+        "confirmReset": "Rimuovere tutti gli account e reimpostare il PIN?",
+        "welcomeBack": "Ben tornato"
+      },
+      "setPasscode": {
+        "enterAgain": "Inserisci di nuovo il passcode",
+        "passcodeHint": "Si prega di impostare un passcode per proteggere il dispositivo"
+      },
+      "currencyList": {
+        "coinbaseHint": "Se hai qualcuno di questi in Coinbase, Block Monitor può monitorarli.",
+        "fullySupported": "Blockchain completamente supportati",
+        "header": "Valute supportate",
+        "supportedViaCoinbase": "Supportato tramite Coinbase"
+      },
+      "purchase": {
+        "equation": "{{max}} indirizzo / i x {{total}} valute",
+        "goBack": "Torna indietro",
+        "hint1": "Annulla in qualsiasi momento",
+        "hint2": "Risparmia il 10%",
+        "hint3": "Risparmia il 20%",
+        "monthly": "Mensile - {{price}}",
+        "notReadyYet": "Non ancora pronto?",
+        "sixMonths": "6 mesi - {{price}}",
+        "tryFree": "Esegui l'upgrade per sbloccare il monitoraggio attivo",
+        "viewCurrencyList": "Visualizza elenco valute",
+        "watchUpTo": "Guarda fino a {{max}} indirizzi",
+        "yearly": "Annuale - {{price}}"
+      }
+    },
+    "passcode": {
+      "passcode": "Codice di accesso"
+    },
+    "screens": {
+      "accounts": {
+        "addAccount": "Aggiungi account",
+        "createAccount": "Creare un profilo",
+        "noAccounts": {
+          "hint": "Aggiungi un account per iniziare.",
+          "title": "benvenuto"
+        },
+        "title": "conti"
+      },
+      "accountDetails": {
+        "noTransactions": {
+          "title": "Nessuna transazione"
+        },
+        "copiedSuccessfully": "Indirizzo copiato correttamente.",
+        "copy": "copia"
+      },
+      "addAccount": {
+        "createAccount": "Creare un profilo",
+        "title": "Aggiungi account",
+        "selectCurrency": "Seleziona la valuta",
+        "selectedCurrency": "Valuta selezionata",
+        "address": "Inserisci l'indirizzo del tuo account",
+        "hint": "NON la tua passphrase!",
+        "success": "Account aggiunti correttamente.",
+        "addToken": "Aggiungi token / indirizzo contratto?",
+        "tokenAddress": "Token / indirizzo del contratto",
+        "tokenDecimals": "Decimali",
+        "isEthValidator": "Validatore ETH 2.0 (index o pubkey)"
+      },
+      "createAccount": {
+        "createAccount": "Creare un profilo",
+        "enterPin": "Inserisci un PIN",
+        "enterPinHint": "Inserisci un PIN per proteggere questo account. Il PIN viene utilizzato per verificare le azioni eseguite con il tuo account.",
+        "generateSeed": "Genera seme",
+        "generatedPercent": "Generato: {{percent}}%",
+        "howToGenerate": "Muovi il dito sull'area per creare un seme casuale.",
+        "notePassphrase": "Nota passphrase",
+        "notePassphraseHint": "Annota la tua passphrase. La passphrase è la chiave principale del tuo account. Pertanto, mantieni la tua passphrase sempre sicura e privata!",
+        "notePassphraseHint2": "Non memorizziamo la passphrase nemmeno sul tuo dispositivo, quindi non possiamo recuperare l'accesso all'account. Annotalo!",
+        "pinPlaceholder": "PIN",
+        "step": "Passaggio {{step}} / 4",
+        "title": "Creare un profilo"
+      },
+      "importAccount": {
+        "activeAccount": "Conto attivo",
+        "activeAccountHint": "I conti attivi vengono utilizzati per effettuare transazioni BURST. Richiede all'utente di generare una passphrase o di fornirne una. Richiede che un utente crei un PIN per le transazioni. La passphrase viene utilizzata solo una volta localmente per crittografare la chiave privata; non è memorizzato da nessuna parte.",
+        "import": "Importare",
+        "passiveAccountHint": "Gli account passivi sono utili se si conosce un indirizzo BURST, ma non si intende effettuare alcuna transazione. Aggiunge maggiore sicurezza. Può essere convertito in un account attivo in qualsiasi momento.",
+        "title": "Importa account",
+        "showPassphrase": "Mostra passphrase"
+      },
+      "notificationConfig": {
+        "header": "Notifica attivata da:",
+        "option0": "Aumento del saldo",
+        "option1": "Saldo Diminuzione",
+        "option2": "Entrambi",
+        "option3": "Mai",
+        "successBody": "Le tue impostazioni sono state salvate.",
+        "successHeader": "Impostazioni aggiornate"
+      }
+    }
+  },
+  "core": {
+    "actions": {
+      "add": "Inserisci",
+      "cancel": "Annulla",
+      "create": "Creare",
+      "next": "Il prossimo",
+      "ok": "ok",
+      "save": "Salva",
+      "back": "Indietro",
+      "submit": "Invia"
+    },
+    "currency": {
+      "BTC": {
+        "name": "BTC",
+        "value": "₿ {{value}}"
+      },
+      "BURST": {
+        "name": "BURST",
+        "value": "Ƀ {{value}}"
+      },
+      "USD": {
+        "name": "USD",
+        "value": "$ {{value}}"
+      },
+      "available": "{{x}} di {{y}} disponibile"
+    },
+    "dates": {
+      "months": {
+        "short": {
+          "JAN": "Jan",
+          "FEB": "febbraio",
+          "MAR": "mar",
+          "APR": "aprile",
+          "MAY": "Maggio",
+          "JUN": "Giugno",
+          "JUL": "luglio",
+          "AUG": "agosto",
+          "SEP": "settembre",
+          "OCT": "ottobre",
+          "NOV": "novembre",
+          "DEC": "dicembre"
+        }
+      }
+    },
+    "layout": {
+      "preventBackButton": {
+        "alertMessage": "Le informazioni andranno perse",
+        "alertTitle": "Sei sicuro?"
+      }
+    },
+    "screens": {
+      "home": {
+        "accountsList": "Elenco dei conti",
+        "recentTransactions": "Le transazioni recenti",
+        "title": "Tutti gli account",
+        "allAccounts": "Tutti gli account"
+      },
+      "loading": {
+        "loadingText": "Caricamento in corso..."
+      }
+    }
+  },
+  "models": {
+    "account": {
+      "address": "Indirizzo",
+      "id": "ID",
+      "passphrase": "Frase d'accesso",
+      "pin": "PIN",
+      "title": "account"
+    }
+  },
+  "transactions": {
+    "screens": {
+      "receive": {
+        "title": "Ricevere",
+        "recipient": "Destinatario",
+        "generate": "Genera codice QR",
+        "immutable": "Immutabile"
+      },
+      "send": {
+        "amountNQT": "Quantità",
+        "feeNQT": "tassa",
+        "from": "A partire dal",
+        "selectAccount": "Seleziona un account",
+        "sent": "Inviato!",
+        "title": "Spedire",
+        "button": "Scorri per inviare",
+        "to": "Per",
+        "total": "Totale: Ƀ {{value}}",
+        "noPublicKey": "Si prega di confermare l'indirizzo prima di inviare.",
+        "invalidAddress": "Questo indirizzo non è valido",
+        "zilOutage": "Impossibile recuperare dall'API ZIL.",
+        "success": "{{Amount}} BURST inviato correttamente a {{address}}.",
+        "failure": "Impossibile inviare BURST. Controlla le voci e riprova."
+      },
+      "scan": {
+        "title": "Scansiona codice QR BURST"
+      }
+    }
+  },
+  "settings": {
+    "screens": {
+      "settings": {
+        "title": "impostazioni",
+        "erase": "Cancella tutti gli account e reimposta il PIN",
+        "confirmReset": "Sei sicuro? Non è possibile annullare questa azione.",
+        "confirmErase": "Conferma: cancella e ripristina",
+        "changeLanguage": "Seleziona la lingua",
+        "copyright": "Copyright © Examp, LLC",
+        "getSupport": "Ottieni supporto",
+        "appMustRestart": "L'app deve essere riavviata",
+        "restartNow": "Riavvia ora",
+        "about": "Di",
+        "attributions": "Attribuzioni",
+        "manageSubscription": "Gestisci abbonamento",
+        "privacy": "politica sulla riservatezza",
+        "terms": "Termini e condizioni",
+        "restoreSubscription": "Ripristina abbonamento",
+        "general": "Generale"
+      }
+    }
+  },
+  "home": {
+    "screens": {
+      "welcome": {
+        "emptyAddresses": "I tuoi indirizzi sembrano essere vuoti",
+        "zeroBalance": "Equilibrio Zero",
+        "grossBalance": "Saldo lordo"
+      }
+    }
+  }
+}

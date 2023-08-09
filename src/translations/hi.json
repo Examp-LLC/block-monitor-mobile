@@ -1,0 +1,244 @@
+{
+  "auth": {
+    "errors": {
+      "accountExist": "खाता पहले ही आयात किया जा चुका है",
+      "serverErrorAddingAccount": "सर्वर त्रुटि: खाता नहीं जोड़ा गया।",
+      "incorrectAddress": "गलत BURST- पता",
+      "incorrectPasscode": "गलत पासकोड",
+      "incorrectPassphrase": "गलत पासफ़्रेज़",
+      "insecurePin": "असुरक्षित पिन, अनुशंसित {{लंबाई}} चार्ट न्यूनतम",
+      "noUnstoppableAddressesFound": "कोई समर्थित पता नहीं मिला।",
+      "serverErrorSavingReceipt": "सर्वर त्रुटि: रसीद बचाने में असमर्थ।",
+      "missingDeviceToken": "पुश सूचनाओं को इस ऐप का उपयोग करने में सक्षम होना चाहिए। कृपया स्थापना रद्द करें और पुनर्स्थापित करें, और पुश सूचनाओं को स्वीकार करें।",
+      "serverErrorFetchingReceipts": "सर्वर त्रुटि: प्राप्तियां प्राप्त करने में असमर्थ।"
+    },
+    "modals": {
+      "enterPasscode": {
+        "passcodeHint": "पासकोड दर्ज करें",
+        "forgotPin": "पिन भूल गए?",
+        "confirmReset": "सभी खाते निकालें और पिन रीसेट करें?",
+        "welcomeBack": "वापसी पर स्वागत है"
+      },
+      "setPasscode": {
+        "enterAgain": "फिर से पासकोड डालें",
+        "passcodeHint": "कृपया अपने डिवाइस को सुरक्षित करने के लिए पासकोड सेट करें"
+      },
+      "currencyList": {
+        "coinbaseHint": "यदि आपके पास Coinbase में इनमें से कोई भी है, तो ब्लॉक मॉनिटर उनकी निगरानी कर सकता है।",
+        "fullySupported": "पूरी तरह से समर्थित ब्लॉकचेन",
+        "header": "समर्थित मुद्राओं",
+        "supportedViaCoinbase": "Coinbase के माध्यम से समर्थित है"
+      },
+      "purchase": {
+        "equation": "{{max}} पता (तों) x {{total}} मुद्राएं",
+        "goBack": "वापस जाओ",
+        "hint1": "कभी भी रद्द करें",
+        "hint2": "10% बचाएं",
+        "hint3": "20% सहेजें",
+        "monthly": "मासिक - {{price}}",
+        "notReadyYet": "अभी तक तैयार नहीं हूँ?",
+        "sixMonths": "6 महीने - {{price}}",
+        "tryFree": "सक्रिय निगरानी अनलॉक करने के लिए कृपया अपग्रेड करें",
+        "viewCurrencyList": "मुद्रा सूची देखें",
+        "watchUpTo": "{{max}} पते तक देखें",
+        "yearly": "वार्षिक - {{price}}"
+      }
+    },
+    "passcode": {
+      "passcode": "पासकोड"
+    },
+    "screens": {
+      "accounts": {
+        "addAccount": "खाता जोड़ो",
+        "createAccount": "खाता बनाएं",
+        "noAccounts": {
+          "hint": "कृपया आरंभ करने के लिए एक खाता जोड़ें।",
+          "title": "स्वागत हे"
+        },
+        "title": "हिसाब किताब"
+      },
+      "accountDetails": {
+        "noTransactions": {
+          "title": "कोई लेन-देन नहीं"
+        },
+        "copiedSuccessfully": "पता सफलतापूर्वक कॉपी किया गया।",
+        "copy": "प्रतिलिपि"
+      },
+      "addAccount": {
+        "createAccount": "खाता बनाएं",
+        "title": "खाता जोड़ो",
+        "selectCurrency": "मुद्रा चुनें",
+        "selectedCurrency": "चयनित मुद्रा",
+        "address": "अपना खाता पता दर्ज करें",
+        "hint": "आपका पासफ़्रेज़ नहीं!",
+        "success": "खाता सफलतापूर्वक जोड़ा गया।",
+        "addToken": "टोकन / अनुबंध पता जोड़ें?",
+        "tokenAddress": "टोकन / अनुबंध पता",
+        "tokenDecimals": "दशमलव",
+        "isEthValidator": "ईटीएच 2.0 सत्यापनकर्ता (सूचकांक या पबकी)"
+      },
+      "createAccount": {
+        "createAccount": "खाता बनाएं",
+        "enterPin": "एक पिन दर्ज करें",
+        "enterPinHint": "इस खाते को सुरक्षित करने के लिए एक पिन दर्ज करें। पिन का उपयोग आपके खाते के साथ की गई क्रियाओं को सत्यापित करने के लिए किया जाता है।",
+        "generateSeed": "बीज उत्पन्न करें",
+        "generatedPercent": "उत्पन्न: {{प्रतिशत}}%",
+        "howToGenerate": "यादृच्छिक बीज बनाने के लिए अपनी उंगली को पूरे क्षेत्र में घुमाएं।",
+        "notePassphrase": "नोट पासफ़्रेज़",
+        "notePassphraseHint": "अपने पासफ़्रेज़ पर ध्यान दें। पासफ़्रेज़ आपके खाते की मुख्य कुंजी है। इसलिए, अपने पासफ़्रेज़ को हमेशा सुरक्षित और निजी रखें!",
+        "notePassphraseHint2": "हम पासफ़्रेज़ को आपके डिवाइस पर भी संग्रहीत नहीं करते हैं, इसलिए हम खाते तक पहुंच प्राप्त नहीं कर सकते हैं। यह ध्यान दें!",
+        "pinPlaceholder": "पिन",
+        "step": "चरण {{चरण}} / 4",
+        "title": "खाता बनाएं"
+      },
+      "importAccount": {
+        "activeAccount": "सक्रिय खाता",
+        "activeAccountHint": "सक्रिय खातों का उपयोग BURST लेनदेन करने के लिए किया जाता है। उपयोगकर्ता को पासफ़्रेज़ जेनरेट करने या एक प्रदान करने की आवश्यकता होती है। उपयोगकर्ता को लेनदेन के लिए एक पिन बनाने की आवश्यकता होती है। पासफ़्रेज़ का उपयोग केवल एक बार स्थानीय रूप से आपकी निजी कुंजी को एन्क्रिप्ट करने के लिए किया जाता है; यह कहीं भी संग्रहीत नहीं है।",
+        "import": "आयात",
+        "passiveAccountHint": "यदि आप BURST पता जानते हैं, तो निष्क्रिय खाते उपयोगी हैं, लेकिन कोई लेनदेन करने का इरादा नहीं है। सुरक्षा बढ़ा दी। किसी भी समय एक सक्रिय खाते में परिवर्तित किया जा सकता है।",
+        "title": "आयात खाता",
+        "showPassphrase": "पासफ़्रेज़ दिखाएं"
+      },
+      "notificationConfig": {
+        "header": "इसके द्वारा ट्रिगर की गई अधिसूचना:",
+        "option0": "शेष राशि में वृद्धि",
+        "option1": "बैलेंस में कमी",
+        "option2": "दोनों",
+        "option3": "कभी नहीँ",
+        "successBody": "अपनी सेटिंग्स को सुरक्षित कर दिया गया है।",
+        "successHeader": "सेटिंग को अद्यतन किया गया है"
+      }
+    }
+  },
+  "core": {
+    "actions": {
+      "add": "जोड़ना",
+      "cancel": "रद्द करना",
+      "create": "सृजन करना",
+      "next": "आगे",
+      "ok": "ठीक",
+      "save": "सहेजें",
+      "back": "वापस",
+      "submit": "प्रस्तुत"
+    },
+    "currency": {
+      "BTC": {
+        "name": "BTC",
+        "value": "₿ {{value}}"
+      },
+      "BURST": {
+        "name": "BURST",
+        "value": "Ƀ {{value}}"
+      },
+      "USD": {
+        "name": "USD",
+        "value": "$ {{value}}"
+      },
+      "available": "{{y}} उपलब्ध {{x}}"
+    },
+    "dates": {
+      "months": {
+        "short": {
+          "JAN": "जनवरी",
+          "FEB": "फ़रवरी",
+          "MAR": "मार्च",
+          "APR": "अप्रैल",
+          "MAY": "मई",
+          "JUN": "जून",
+          "JUL": "जुलाई",
+          "AUG": "अगस्त",
+          "SEP": "सितम्बर",
+          "OCT": "अक्टूबर",
+          "NOV": "नवम्बर",
+          "DEC": "दिसम्बर"
+        }
+      }
+    },
+    "layout": {
+      "preventBackButton": {
+        "alertMessage": "जानकारी खो जाएगी",
+        "alertTitle": "क्या आपको यकीन है?"
+      }
+    },
+    "screens": {
+      "home": {
+        "accountsList": "लेखा सूची",
+        "recentTransactions": "हाल ही के लेनदेन",
+        "title": "सभी खाते हैं",
+        "allAccounts": "सभी खाते हैं"
+      },
+      "loading": {
+        "loadingText": "लोड हो रहा है..."
+      }
+    }
+  },
+  "models": {
+    "account": {
+      "address": "पता",
+      "id": "पहचान",
+      "passphrase": "पासफ़्रेज़",
+      "pin": "पिन",
+      "title": "लेखा"
+    }
+  },
+  "transactions": {
+    "screens": {
+      "receive": {
+        "title": "प्राप्त करना",
+        "recipient": "प्राप्त करने वाला",
+        "generate": "QR कोड जनरेट करें",
+        "immutable": "अडिग"
+      },
+      "send": {
+        "amountNQT": "रकम",
+        "feeNQT": "शुल्क",
+        "from": "से",
+        "selectAccount": "एक खाते का चयन करें",
+        "sent": "भेज दिया!",
+        "title": "संदेश",
+        "button": "भेजने के लिए स्वाइप करें",
+        "to": "सेवा",
+        "total": "कुल: {{{मूल्य}}",
+        "noPublicKey": "भेजने से पहले पते की पुष्टि करें।",
+        "invalidAddress": "यह पता मान्य नहीं है।",
+        "zilOutage": "ZIL API से लाने में असमर्थ।",
+        "success": "सफलतापूर्वक {{राशि}} BURST से {{पता}} भेजा गया।",
+        "failure": "BURST भेजने में विफल। कृपया अपनी प्रविष्टियाँ जांचें और पुनः प्रयास करें।"
+      },
+      "scan": {
+        "title": "स्कैन BURST QR कोड"
+      }
+    }
+  },
+  "settings": {
+    "screens": {
+      "settings": {
+        "title": "समायोजन",
+        "erase": "सभी खाते मिटाएं और पिन रीसेट करें",
+        "confirmReset": "क्या आपको यकीन है? आप इस क्रिया को पूर्ववत नहीं कर सकते।",
+        "confirmErase": "पुष्टि करें - मिटाएँ और रीसेट करें",
+        "changeLanguage": "भाषा का चयन करें",
+        "copyright": "कॉपीराइट © ब्लेंकी",
+        "getSupport": "सहायता प्राप्त करें",
+        "appMustRestart": "ऐप को फिर से शुरू करना होगा",
+        "restartNow": "अब पुनःचालू करें",
+        "about": "के बारे में",
+        "attributions": "विशेषताएं",
+        "manageSubscription": "सदस्यता प्रबंधित करें",
+        "privacy": "गोपनीयता नीति",
+        "terms": "नियम और शर्तें",
+        "restoreSubscription": "सदस्यता बहाल करें",
+        "general": "आम"
+      }
+    }
+  },
+  "home": {
+    "screens": {
+      "welcome": {
+        "emptyAddresses": "आपके पते खाली दिखाई देते हैं",
+        "zeroBalance": "जीरो बैलेंस",
+        "grossBalance": "सकल संतुलन"
+      }
+    }
+  }
+}

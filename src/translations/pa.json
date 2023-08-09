@@ -1,0 +1,244 @@
+{
+  "auth": {
+    "errors": {
+      "accountExist": "ਖਾਤਾ ਪਹਿਲਾਂ ਹੀ ਆਯਾਤ ਕੀਤਾ ਗਿਆ ਹੈ",
+      "serverErrorAddingAccount": "ਸਰਵਰ ਗਲਤੀ: ਖਾਤਾ ਨਹੀਂ ਜੋੜਿਆ ਗਿਆ.",
+      "incorrectAddress": "ਗਲਤ BURST- ਪਤਾ",
+      "incorrectPasscode": "ਗਲਤ ਪਾਸਕੋਡ",
+      "incorrectPassphrase": "ਗਲਤ ਪ੍ਹੈਰਾ",
+      "insecurePin": "ਅਸੁਰੱਖਿਅਤ ਪਿੰਨ, ਸਿਫਾਰਸ਼ੀ {{ਲੰਬਾਈ} rs ਘੱਟੋ ਘੱਟ",
+      "noUnstoppableAddressesFound": "ਕੋਈ ਸਹਾਇਤਾ ਪ੍ਰਾਪਤ ਪਤਾ ਨਹੀਂ ਮਿਲਿਆ.",
+      "serverErrorSavingReceipt": "ਸਰਵਰ ਗਲਤੀ: ਰਸੀਦ ਨੂੰ ਬਚਾਉਣ ਵਿੱਚ ਅਸਮਰੱਥ.",
+      "missingDeviceToken": "ਇਸ ਐਪ ਦੀ ਵਰਤੋਂ ਕਰਨ ਲਈ ਪੁਸ਼ ਨੋਟੀਫਿਕੇਸ਼ਨਾਂ ਨੂੰ ਸਮਰੱਥ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ. ਕਿਰਪਾ ਕਰਕੇ ਅਣਇੰਸਟੌਲ ਕਰੋ ਅਤੇ ਦੁਬਾਰਾ ਸਥਾਪਿਤ ਕਰੋ ਅਤੇ ਪੁਸ਼ ਸੂਚਨਾਵਾਂ ਨੂੰ ਸਵੀਕਾਰ ਕਰੋ.",
+      "serverErrorFetchingReceipts": "ਸਰਵਰ ਗਲਤੀ: ਰਸੀਦਾਂ ਪ੍ਰਾਪਤ ਕਰਨ ਵਿੱਚ ਅਸਮਰੱਥ."
+    },
+    "modals": {
+      "enterPasscode": {
+        "passcodeHint": "ਪਾਸਕੋਡ ਦਰਜ ਕਰੋ",
+        "forgotPin": "ਕੀ ਪਿੰਨ ਭੁੱਲ ਗਏ ਹੋ?",
+        "confirmReset": "ਸਾਰੇ ਖਾਤੇ ਹਟਾਓ ਅਤੇ ਪਿੰਨ ਰੀਸੈਟ ਕਰੋ?",
+        "welcomeBack": "ਵਾਪਸ ਸਵਾਗਤ"
+      },
+      "setPasscode": {
+        "enterAgain": "ਪਾਸਕੋਡ ਦੁਬਾਰਾ ਦਰਜ ਕਰੋ",
+        "passcodeHint": "ਕਿਰਪਾ ਕਰਕੇ ਆਪਣੀ ਡਿਵਾਈਸ ਨੂੰ ਸੁਰੱਖਿਅਤ ਕਰਨ ਲਈ ਇੱਕ ਪਾਸਕੋਡ ਸੈਟ ਕਰੋ"
+      },
+      "currencyList": {
+        "coinbaseHint": "ਜੇ ਤੁਹਾਡੇ ਕੋਲ ਸਿੱਕਾਬੇਸ ਵਿੱਚ ਕੋਈ ਹੈ, ਬਲਾਕ ਮਾਨੀਟਰ ਉਹਨਾਂ ਦੀ ਨਿਗਰਾਨੀ ਕਰ ਸਕਦਾ ਹੈ.",
+        "fullySupported": "ਪੂਰੀ ਤਰ੍ਹਾਂ ਸਮਰਥਿਤ ਬਲਾਕਚੈਨਸ",
+        "header": "ਸਮਰਥਿਤ ਕਰੰਸੀ",
+        "supportedViaCoinbase": "Coinbase ਦੁਆਰਾ ਸਹਿਯੋਗੀ"
+      },
+      "purchase": {
+        "equation": "{{max}} ਪਤਾ (ਹੈ) x {{total}} rencies ਮੁਦਰਾ",
+        "goBack": "ਵਾਪਸ ਜਾਓ",
+        "hint1": "ਕਿਸੇ ਵੀ ਸਮੇਂ ਰੱਦ ਕਰੋ",
+        "hint2": "10% ਬਚਾਓ",
+        "hint3": "20% ਬਚਾਓ",
+        "monthly": "ਮਾਸਿਕ - {{price}}",
+        "notReadyYet": "ਅਜੇ ਤਿਆਰ ਨਹੀਂ?",
+        "sixMonths": "6 ਮਹੀਨੇ - {{price}}",
+        "tryFree": "ਕਿਰਪਾ ਕਰਕੇ ਕਿਰਿਆਸ਼ੀਲ ਨਿਗਰਾਨੀ ਨੂੰ ਅਨਲੌਕ ਕਰਨ ਲਈ ਅੱਪਗ੍ਰੇਡ ਕਰੋ",
+        "viewCurrencyList": "ਮੁਦਰਾ ਸੂਚੀ ਵੇਖੋ",
+        "watchUpTo": "{{max}} ਪਤੇ ਵੇਖੋ",
+        "yearly": "ਸਲਾਨਾ - {{price}}"
+      }
+    },
+    "passcode": {
+      "passcode": "ਪਾਸਕੋਡ"
+    },
+    "screens": {
+      "accounts": {
+        "addAccount": "ਖਾਤਾ ਸ਼ਾਮਲ ਕਰੋ",
+        "createAccount": "ਖਾਤਾ ਬਣਾਉ",
+        "noAccounts": {
+          "hint": "ਸ਼ੁਰੂ ਕਰਨ ਲਈ ਕਿਰਪਾ ਕਰਕੇ ਇੱਕ ਖਾਤਾ ਸ਼ਾਮਲ ਕਰੋ.",
+          "title": "ਸਵਾਗਤ ਹੈ"
+        },
+        "title": "ਖਾਤੇ"
+      },
+      "accountDetails": {
+        "noTransactions": {
+          "title": "ਕੋਈ ਲੈਣ-ਦੇਣ ਨਹੀਂ"
+        },
+        "copiedSuccessfully": "ਪਤੇ ਦੀ ਸਫਲਤਾਪੂਰਵਕ ਨਕਲ ਕੀਤੀ ਗਈ.",
+        "copy": "ਕਾੱਪੀ"
+      },
+      "addAccount": {
+        "createAccount": "ਖਾਤਾ ਬਣਾਉ",
+        "title": "ਖਾਤਾ ਸ਼ਾਮਲ ਕਰੋ",
+        "selectCurrency": "ਕਰੰਸੀ ਦੀ ਚੋਣ ਕਰੋ",
+        "selectedCurrency": "ਚੁਣੀ ਹੋਈ ਮੁਦਰਾ",
+        "address": "ਆਪਣੇ ਖਾਤੇ ਦਾ ਪਤਾ ਦਾਖਲ ਕਰੋ",
+        "hint": "ਤੁਹਾਡਾ ਪ੍ਹੈਰਾ ਨਹੀਂ!",
+        "success": "ਖਾਤਾ ਸਫਲਤਾਪੂਰਵਕ ਜੋੜਿਆ ਗਿਆ.",
+        "addToken": "ਟੋਕਨ / ਇਕਰਾਰਨਾਮਾ ਪਤਾ ਸ਼ਾਮਲ ਕਰੋ?",
+        "tokenAddress": "ਟੋਕਨ / ਇਕਰਾਰਨਾਮਾ ਪਤਾ",
+        "tokenDecimals": "ਦਸ਼ਮਲਵ",
+        "isEthValidator": "ETH 2.0 ਪ੍ਰਮਾਣਕ (ਸੂਚਕਾਂਕ ਜਾਂ ਪੱਬੀ)"
+      },
+      "createAccount": {
+        "createAccount": "ਖਾਤਾ ਬਣਾਉ",
+        "enterPin": "ਇੱਕ ਪਿੰਨ ਦਰਜ ਕਰੋ",
+        "enterPinHint": "ਇਸ ਖਾਤੇ ਨੂੰ ਸੁਰੱਖਿਅਤ ਕਰਨ ਲਈ ਇੱਕ ਪਿੰਨ ਦਰਜ ਕਰੋ. ਪਿੰਨ ਦੀ ਵਰਤੋਂ ਤੁਹਾਡੇ ਖਾਤੇ ਨਾਲ ਕੀਤੀ ਕਾਰਵਾਈਆਂ ਦੀ ਤਸਦੀਕ ਕਰਨ ਲਈ ਕੀਤੀ ਜਾਂਦੀ ਹੈ.",
+        "generateSeed": "ਬੀਜ ਪੈਦਾ ਕਰੋ",
+        "generatedPercent": "ਤਿਆਰ: {{ਪ੍ਰਤੀਸ਼ਤ}}%",
+        "howToGenerate": "ਬੇਤਰਤੀਬੇ ਬੀਜ ਬਣਾਉਣ ਲਈ ਆਪਣੀ ਉਂਗਲੀ ਨੂੰ ਪੂਰੇ ਖੇਤਰ ਵਿੱਚ ਭੇਜੋ.",
+        "notePassphrase": "ਨੋਟ ਪ੍ਹੈਰਾ",
+        "notePassphraseHint": "ਆਪਣੇ ਗੁਪਤਕੋਡ ਨੂੰ ਨੋਟ ਕਰੋ. ਪ੍ਹੈਰਾ ਤੁਹਾਡੇ ਖਾਤੇ ਦੀ ਮੁੱਖ ਕੁੰਜੀ ਹੈ. ਇਸ ਲਈ, ਆਪਣਾ ਗੁਪਤਕੋਡ ਹਮੇਸ਼ਾਂ ਸੁਰੱਖਿਅਤ ਅਤੇ ਨਿਜੀ ਰੱਖੋ!",
+        "notePassphraseHint2": "ਅਸੀਂ ਤੁਹਾਡੀ ਡਿਵਾਈਸ ਤੇ ਵੀ ਪ੍ਹੈਰਾ ਸਟੋਰ ਨਹੀਂ ਕਰਦੇ, ਇਸਲਈ ਅਸੀਂ ਖਾਤੇ ਵਿੱਚ ਪਹੁੰਚ ਪ੍ਰਾਪਤ ਨਹੀਂ ਕਰ ਸਕਦੇ. ਇਸ ਨੂੰ ਨੋਟ ਕਰੋ!",
+        "pinPlaceholder": "ਪਿੰਨ",
+        "step": "ਕਦਮ {{ਕਦਮ}} / 4",
+        "title": "ਖਾਤਾ ਬਣਾਉ"
+      },
+      "importAccount": {
+        "activeAccount": "ਐਕਟਿਵ ਖਾਤਾ",
+        "activeAccountHint": "ਸਰਗਰਮ ਖਾਤਿਆਂ ਦੀ ਵਰਤੋਂ ਬੁਰਸਟ ਟ੍ਰਾਂਜੈਕਸ਼ਨਾਂ ਲਈ ਕੀਤੀ ਜਾਂਦੀ ਹੈ. ਉਪਭੋਗਤਾ ਨੂੰ ਇੱਕ ਪ੍ਹੈਰਾ ਬਣਾਉਣ ਜਾਂ ਇੱਕ ਪ੍ਰਦਾਨ ਕਰਨ ਦੀ ਲੋੜ ਹੈ. ਲੈਣ-ਦੇਣ ਲਈ ਉਪਭੋਗਤਾ ਨੂੰ ਪਿੰਨ ਬਣਾਉਣ ਦੀ ਜ਼ਰੂਰਤ ਹੁੰਦੀ ਹੈ. ਗੁਪਤਕੋਡ ਕੇਵਲ ਇੱਕ ਵਾਰ ਸਥਾਨਕ ਤੌਰ ਤੇ ਤੁਹਾਡੀ ਨਿੱਜੀ ਕੁੰਜੀ ਨੂੰ ਇੰਕ੍ਰਿਪਟ ਕਰਨ ਲਈ ਵਰਤਿਆ ਜਾਂਦਾ ਹੈ; ਇਹ ਕਿਤੇ ਵੀ ਸਟੋਰ ਨਹੀਂ ਕੀਤਾ ਜਾਂਦਾ.",
+        "import": "ਆਯਾਤ",
+        "passiveAccountHint": "ਪੈਸਿਵ ਅਕਾਉਂਟ ਲਾਭਦਾਇਕ ਹੁੰਦੇ ਹਨ ਜੇ ਤੁਸੀਂ ਬੁਰਸਟ ਐਡਰੈੱਸ ਜਾਣਦੇ ਹੋ, ਪਰ ਕੋਈ ਲੈਣ-ਦੇਣ ਕਰਨ ਦਾ ਇਰਾਦਾ ਨਹੀਂ ਹੈ. ਸੁਰੱਖਿਆ ਵਧਾਉਂਦੀ ਹੈ. ਕਿਸੇ ਵੀ ਸਮੇਂ ਕਿਰਿਆਸ਼ੀਲ ਖਾਤੇ ਵਿੱਚ ਬਦਲਿਆ ਜਾ ਸਕਦਾ ਹੈ.",
+        "title": "ਅਕਾ accountਂਟ ਅਯਾਤ ਕਰੋ",
+        "showPassphrase": "ਪ੍ਹੈਰਾ ਵੇਖੋ"
+      },
+      "notificationConfig": {
+        "header": "ਸੂਚਨਾ ਇਸ ਦੁਆਰਾ ਸ਼ੁਰੂ ਕੀਤੀ ਗਈ:",
+        "option0": "ਬਕਾਇਆ ਵਾਧਾ",
+        "option1": "ਸੰਤੁਲਨ ਵਿੱਚ ਕਮੀ",
+        "option2": "ਦੋਵੇਂ",
+        "option3": "ਕਦੇ ਨਹੀਂ",
+        "successBody": "ਤੁਹਾਡੀਆਂ ਸੈਟਿੰਗਾਂ ਨੂੰ ਸੁਰੱਖਿਅਤ ਕੀਤਾ ਗਿਆ ਹੈ।",
+        "successHeader": "ਸੈਟਿੰਗਾਂ ਅੱਪਡੇਟ ਕੀਤੀਆਂ ਗਈਆਂ"
+      }
+    }
+  },
+  "core": {
+    "actions": {
+      "add": "ਸ਼ਾਮਲ ਕਰੋ",
+      "cancel": "ਰੱਦ ਕਰੋ",
+      "create": "ਬਣਾਓ",
+      "next": "ਅਗਲਾ",
+      "ok": "ਠੀਕ ਹੈ",
+      "save": "ਸੇਵ",
+      "back": "ਵਾਪਸ",
+      "submit": "ਜਮ੍ਹਾਂ ਕਰੋ"
+    },
+    "currency": {
+      "BTC": {
+        "name": "BTC",
+        "value": "₿ {{value}}"
+      },
+      "BURST": {
+        "name": "BURST",
+        "value": "Ƀ {{value}}"
+      },
+      "USD": {
+        "name": "USD",
+        "value": "$ {{value}}"
+      },
+      "available": "{{y}} ਦਾ {{x}} ਉਪਲਬਧ ਹੈ"
+    },
+    "dates": {
+      "months": {
+        "short": {
+          "JAN": "ਜਨ",
+          "FEB": "ਫਰਵਰੀ",
+          "MAR": "ਮਾਰ",
+          "APR": "ਅਪ੍ਰੈਲ",
+          "MAY": "ਮਈ",
+          "JUN": "ਜੂਨ",
+          "JUL": "ਜੁਲਾਈ",
+          "AUG": "ਅਗਸਤ",
+          "SEP": "ਸਤੰਬਰ",
+          "OCT": "ਅਕਤੂਬਰ",
+          "NOV": "ਨਵੰਬਰ",
+          "DEC": "ਦਸੰਬਰ"
+        }
+      }
+    },
+    "layout": {
+      "preventBackButton": {
+        "alertMessage": "ਜਾਣਕਾਰੀ ਗੁੰਮ ਜਾਵੇਗੀ",
+        "alertTitle": "ਤੁਹਾਨੂੰ ਪੂਰਾ ਵਿਸ਼ਵਾਸ ਹੈ?"
+      }
+    },
+    "screens": {
+      "home": {
+        "accountsList": "ਖਾਤਿਆਂ ਦੀ ਸੂਚੀ",
+        "recentTransactions": "ਹਾਲ ਹੀ ਦੇ ਲੈਣ-ਦੇਣ",
+        "title": "ਸਾਰੇ ਖਾਤੇ",
+        "allAccounts": "ਸਾਰੇ ਖਾਤੇ"
+      },
+      "loading": {
+        "loadingText": "ਲੋਡ ਹੋ ਰਿਹਾ ਹੈ ..."
+      }
+    }
+  },
+  "models": {
+    "account": {
+      "address": "ਪਤਾ",
+      "id": "ਆਈ.ਡੀ",
+      "passphrase": "ਪ੍ਹੈਰਾ",
+      "pin": "ਪਿੰਨ",
+      "title": "ਖਾਤਾ"
+    }
+  },
+  "transactions": {
+    "screens": {
+      "receive": {
+        "title": "ਪ੍ਰਾਪਤ ਕਰੋ",
+        "recipient": "ਪ੍ਰਾਪਤ ਕਰਨ ਵਾਲਾ",
+        "generate": "QR ਕੋਡ ਤਿਆਰ ਕਰੋ",
+        "immutable": "ਅਪਹੁੰਚ"
+      },
+      "send": {
+        "amountNQT": "ਦੀ ਰਕਮ",
+        "feeNQT": "ਫੀਸ",
+        "from": "ਤੋਂ",
+        "selectAccount": "ਕੋਈ ਖਾਤਾ ਚੁਣੋ",
+        "sent": "ਭੇਜਿਆ!",
+        "title": "ਭੇਜੋ",
+        "button": "ਭੇਜਣ ਲਈ ਸਵਾਈਪ ਕਰੋ",
+        "to": "ਨੂੰ",
+        "total": "ਕੁੱਲ: Ƀ {{ਮੁੱਲ}",
+        "noPublicKey": "ਭੇਜਣ ਤੋਂ ਪਹਿਲਾਂ ਕਿਰਪਾ ਕਰਕੇ ਪਤੇ ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ.",
+        "invalidAddress": "ਇਹ ਪਤਾ ਯੋਗ ਨਹੀਂ ਹੈ.",
+        "zilOutage": "ZIL API ਤੋਂ ਲਿਆਉਣ ਵਿੱਚ ਅਸਮਰੱਥ.",
+        "success": "ਸਫਲਤਾਪੂਰਵਕ {{ਰਕਮ} UR BURST ਨੂੰ {{ਪਤਾ}} ਤੇ ਭੇਜਿਆ ਗਿਆ.",
+        "failure": "BURST ਭੇਜਣ ਵਿੱਚ ਅਸਫਲ ਕਿਰਪਾ ਕਰਕੇ ਆਪਣੀਆਂ ਐਂਟਰੀਆਂ ਦੀ ਜਾਂਚ ਕਰੋ ਅਤੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ."
+      },
+      "scan": {
+        "title": "ਬਰਸਟ ਕਿ Qਆਰ ਕੋਡ ਨੂੰ ਸਕੈਨ ਕਰੋ"
+      }
+    }
+  },
+  "settings": {
+    "screens": {
+      "settings": {
+        "title": "ਸੈਟਿੰਗਜ਼",
+        "erase": "ਸਾਰੇ ਖਾਤੇ ਮਿਟਾਓ ਅਤੇ ਪਿੰਨ ਨੂੰ ਰੀਸੈਟ ਕਰੋ",
+        "confirmReset": "ਤੁਹਾਨੂੰ ਪੂਰਾ ਵਿਸ਼ਵਾਸ ਹੈ? ਤੁਸੀਂ ਇਸ ਕਿਰਿਆ ਨੂੰ ਵਾਪਸ ਨਹੀਂ ਲੈ ਸਕਦੇ.",
+        "confirmErase": "ਪੁਸ਼ਟੀ ਕਰੋ - ਮਿਟਾਓ ਅਤੇ ਰੀਸੈਟ ਕਰੋ",
+        "changeLanguage": "ਭਾਸ਼ਾ ਚੁਣੋ",
+        "copyright": "ਕਾਪੀਰਾਈਟ © ਬਲੈਂਕੀ",
+        "getSupport": "ਸਹਾਇਤਾ ਪ੍ਰਾਪਤ ਕਰੋ",
+        "appMustRestart": "ਐਪ ਨੂੰ ਦੁਬਾਰਾ ਚਾਲੂ ਕਰਨਾ ਪਵੇਗਾ",
+        "restartNow": "ਹੁਣ ਮੁੜ ਚਾਲੂ ਕਰੋ",
+        "about": "ਬਾਰੇ",
+        "attributions": "ਗੁਣ",
+        "manageSubscription": "ਗਾਹਕੀ ਪ੍ਰਬੰਧਿਤ ਕਰੋ",
+        "privacy": "ਪਰਾਈਵੇਟ ਨੀਤੀ",
+        "terms": "ਨਿਬੰਧਨ ਅਤੇ ਸ਼ਰਤਾਂ",
+        "restoreSubscription": "ਗਾਹਕੀ ਮੁੜ - ਪ੍ਰਾਪਤ ਕਰੋ",
+        "general": "ਜਨਰਲ"
+      }
+    }
+  },
+  "home": {
+    "screens": {
+      "welcome": {
+        "emptyAddresses": "ਤੁਹਾਡੇ ਪਤੇ ਖਾਲੀ ਜਾਪਦੇ ਹਨ",
+        "zeroBalance": "ਜ਼ੀਰੋ ਬੈਲੇਂਸ",
+        "grossBalance": "ਕੁੱਲ ਬਕਾਇਆ"
+      }
+    }
+  }
+}

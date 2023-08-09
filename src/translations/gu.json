@@ -1,0 +1,244 @@
+{
+  "auth": {
+    "errors": {
+      "accountExist": "એકાઉન્ટ પહેલેથી જ આયાત કર્યું છે",
+      "serverErrorAddingAccount": "સર્વર ભૂલ: એકાઉન્ટ ઉમેર્યું નથી.",
+      "incorrectAddress": "ખોટો BURST- સરનામું",
+      "incorrectPasscode": "ખોટો પાસકોડ",
+      "incorrectPassphrase": "ખોટો પાસફ્રેઝ",
+      "insecurePin": "અસુરક્ષિત પિન, ભલામણ કરેલ {{લંબાઈ} minimum અક્ષરો લઘુત્તમ",
+      "noUnstoppableAddressesFound": "કોઈ સપોર્ટેડ સરનામાં મળ્યાં નથી.",
+      "serverErrorSavingReceipt": "સર્વર ભૂલ: રસીદ સાચવવામાં અસમર્થ.",
+      "missingDeviceToken": "આ એપ્લિકેશનનો ઉપયોગ કરવા પુશ સૂચનાઓ સક્ષમ હોવી આવશ્યક છે. કૃપા કરીને અનઇન્સ્ટોલ કરો અને ફરીથી ઇન્સ્ટોલ કરો અને પુશ સૂચનાઓ સ્વીકારો.",
+      "serverErrorFetchingReceipts": "સર્વર ભૂલ: રસીદો મેળવવા માટે અસમર્થ."
+    },
+    "modals": {
+      "enterPasscode": {
+        "passcodeHint": "પાસકોડ દાખલ કરો",
+        "forgotPin": "પિન ભૂલી ગયા છો?",
+        "confirmReset": "બધા એકાઉન્ટ્સ દૂર કરો અને પિન ફરીથી સેટ કરો?",
+        "welcomeBack": "ફરી સ્વાગત છે"
+      },
+      "setPasscode": {
+        "enterAgain": "ફરીથી પાસકોડ દાખલ કરો",
+        "passcodeHint": "કૃપા કરીને તમારા ઉપકરણને સુરક્ષિત કરવા માટે એક પાસકોડ સેટ કરો"
+      },
+      "currencyList": {
+        "coinbaseHint": "જો તમારી પાસે સિક્કાબેસમાં આમાંથી કોઈ છે, તો બ્લ Blockક મોનિટર તેનું નિરીક્ષણ કરી શકે છે.",
+        "fullySupported": "સંપૂર્ણપણે સમર્થિત બ્લોકચેન્સ",
+        "header": "સપોર્ટેડ કરન્સી",
+        "supportedViaCoinbase": "Coinbase દ્વારા આધારભૂત"
+      },
+      "purchase": {
+        "equation": "{{max}} સરનામું (એએસ) x {{total}} ચલણો",
+        "goBack": "પાછા જાવ",
+        "hint1": "કોઈપણ સમયે રદ કરો",
+        "hint2": "10% બચાવો",
+        "hint3": "20% બચાવો",
+        "monthly": "માસિક - {{price}}",
+        "notReadyYet": "હજી તૈયાર નથી?",
+        "sixMonths": "6 મહિના - {{price}}",
+        "tryFree": "સક્રિય મોનિટરિંગ અનલૉક કરવા માટે કૃપા કરીને અપગ્રેડ કરો",
+        "viewCurrencyList": "ચલણ સૂચિ જુઓ",
+        "watchUpTo": "{{max}} સરનામાંઓ જુઓ",
+        "yearly": "વાર્ષિક - {{price}}"
+      }
+    },
+    "passcode": {
+      "passcode": "પાસકોડ"
+    },
+    "screens": {
+      "accounts": {
+        "addAccount": "ખાતું ઉમેરો",
+        "createAccount": "ખાતું બનાવો",
+        "noAccounts": {
+          "hint": "કૃપા કરીને પ્રારંભ કરવા માટે એક એકાઉન્ટ ઉમેરો.",
+          "title": "સ્વાગત છે"
+        },
+        "title": "હિસાબો"
+      },
+      "accountDetails": {
+        "noTransactions": {
+          "title": "કોઈ વ્યવહાર નથી"
+        },
+        "copiedSuccessfully": "સરનામાંની સફળતાપૂર્વક કiedપિ કરવામાં આવી.",
+        "copy": "નકલ કરો"
+      },
+      "addAccount": {
+        "createAccount": "ખાતું બનાવો",
+        "title": "ખાતું ઉમેરો",
+        "selectCurrency": "ચલણ પસંદ કરો",
+        "selectedCurrency": "ચલણ પસંદ કરેલ",
+        "address": "તમારું એકાઉન્ટ સરનામું દાખલ કરો",
+        "hint": "તમારો પાસફ્રેઝ નથી!",
+        "success": "એકાઉન્ટ (ઓ) સફળતાપૂર્વક ઉમેર્યા છે.",
+        "addToken": "ટોકન / કરાર સરનામું ઉમેરો?",
+        "tokenAddress": "ટોકન / કરારનું સરનામું",
+        "tokenDecimals": "દશાંશ",
+        "isEthValidator": "ETH 2.0 વેલિડેટર (અનુક્રમણિકા અથવા પબકી)"
+      },
+      "createAccount": {
+        "createAccount": "ખાતું બનાવો",
+        "enterPin": "એક પિન દાખલ કરો",
+        "enterPinHint": "આ એકાઉન્ટને સુરક્ષિત કરવા માટે એક પિન દાખલ કરો. પિનનો ઉપયોગ તમારા એકાઉન્ટ સાથે કરવામાં આવેલી ક્રિયાઓ ચકાસવા માટે થાય છે.",
+        "generateSeed": "બીજ પેદા કરો",
+        "generatedPercent": "પેદા: {{ટકા}}%",
+        "howToGenerate": "રેન્ડમ બીજ બનાવવા માટે તમારી આંગળીને આખા વિસ્તારમાં ખસેડો.",
+        "notePassphrase": "નોંધ પાસફ્રેઝ",
+        "notePassphraseHint": "તમારા પાસફ્રેઝને નોંધો. પાસફ્રેઝ એ તમારા ખાતાની મુખ્ય કી છે. તેથી, તમારો પાસફ્રેજ હંમેશા સલામત અને ખાનગી રાખો!",
+        "notePassphraseHint2": "અમે તમારા ડિવાઇસ પર પણ પાસફ્રેજ સ્ટોર કરતા નથી, તેથી અમે એકાઉન્ટની recoverક્સેસ પુન can'tપ્રાપ્ત કરી શકતા નથી. તે નોંધ!",
+        "pinPlaceholder": "પિન",
+        "step": "પગલું {{પગલું}} / 4",
+        "title": "ખાતું બનાવો"
+      },
+      "importAccount": {
+        "activeAccount": "સક્રિય ખાતું",
+        "activeAccountHint": "સક્રિય ખાતાઓનો ઉપયોગ બર્સ્ટ વ્યવહાર કરવા માટે થાય છે. વપરાશકર્તાને પાસફ્રેઝ બનાવવો અથવા એક પ્રદાન કરવો જરૂરી છે. વ્યવહારો માટે વપરાશકર્તાને પિન બનાવવાની જરૂર છે. પાસફ્રેઝનો ઉપયોગ ફક્ત તમારી ખાનગી કીને એન્ક્રિપ્ટ કરવા માટે એકવાર સ્થાનિક રીતે થાય છે; તે ક્યાંય સંગ્રહિત નથી.",
+        "import": "આયાત કરો",
+        "passiveAccountHint": "નિષ્ક્રિય એકાઉન્ટ્સ ઉપયોગી છે જો તમને કોઈ બર્સ્ટ સરનામું ખબર હોય, પરંતુ કોઈ લેવડદેવડ કરવાનો ઇરાદો નથી. સુરક્ષામાં વધારો કરે છે. કોઈપણ સમયે સક્રિય ખાતામાં રૂપાંતર કરી શકાય છે.",
+        "title": "એકાઉન્ટ આયાત કરો",
+        "showPassphrase": "પાસફ્રેઝ બતાવો"
+      },
+      "notificationConfig": {
+        "header": "સૂચના આના દ્વારા ટ્રિગર થઈ:",
+        "option0": "બેલેન્સ વધારો",
+        "option1": "સંતુલન ઘટાડો",
+        "option2": "બંને",
+        "option3": "ક્યારેય",
+        "successBody": "તમારી સેટિંગ્સ સાચવવામાં આવી છે.",
+        "successHeader": "સેટિંગ્સ અપડેટ કરી"
+      }
+    }
+  },
+  "core": {
+    "actions": {
+      "add": "ઉમેરો",
+      "cancel": "રદ કરો",
+      "create": "બનાવો",
+      "next": "આગળ",
+      "ok": "બરાબર",
+      "save": "સાચવો",
+      "back": "પાછળ",
+      "submit": "સબમિટ કરો"
+    },
+    "currency": {
+      "BTC": {
+        "name": "BTC",
+        "value": "₿ {{value}}"
+      },
+      "BURST": {
+        "name": "BURST",
+        "value": "Ƀ {{value}}"
+      },
+      "USD": {
+        "name": "USD",
+        "value": "$ {{value}}"
+      },
+      "available": "{{y}} નું {{x}} ઉપલબ્ધ છે"
+    },
+    "dates": {
+      "months": {
+        "short": {
+          "JAN": "જાન",
+          "FEB": "ફેબ્રુ",
+          "MAR": "માર્",
+          "APR": "એપ્રિલ",
+          "MAY": "મે",
+          "JUN": "જૂન",
+          "JUL": "જુલાઈ",
+          "AUG": ".ગસ્ટ",
+          "SEP": "સપ્ટે",
+          "OCT": "Octક્ટો",
+          "NOV": "નવે",
+          "DEC": "ડિસેમ્બર"
+        }
+      }
+    },
+    "layout": {
+      "preventBackButton": {
+        "alertMessage": "માહિતી ખોવાઈ જશે",
+        "alertTitle": "શું તમને ખાતરી છે?"
+      }
+    },
+    "screens": {
+      "home": {
+        "accountsList": "એકાઉન્ટ્સ સૂચિ",
+        "recentTransactions": "તાજેતરના વ્યવહારો",
+        "title": "બધા હિસાબ",
+        "allAccounts": "બધા હિસાબ"
+      },
+      "loading": {
+        "loadingText": "લોડ કરી રહ્યું છે ..."
+      }
+    }
+  },
+  "models": {
+    "account": {
+      "address": "સરનામું",
+      "id": "ID",
+      "passphrase": "પાસફ્રેઝ",
+      "pin": "પિન",
+      "title": "ખાતું"
+    }
+  },
+  "transactions": {
+    "screens": {
+      "receive": {
+        "title": "પ્રાપ્ત કરો",
+        "recipient": "પ્રાપ્તકર્તા",
+        "generate": "ક્યૂઆર કોડ બનાવો",
+        "immutable": "અપરિવર્તનશીલ"
+      },
+      "send": {
+        "amountNQT": "રકમ",
+        "feeNQT": "ફી",
+        "from": "થી",
+        "selectAccount": "ખાતું પસંદ કરો",
+        "sent": "મોકલ્યો!",
+        "title": "મોકલો",
+        "button": "મોકલવા માટે સ્વાઇપ કરો",
+        "to": "પ્રતિ",
+        "total": "કુલ: Ƀ {{મૂલ્ય}",
+        "noPublicKey": "કૃપા કરીને મોકલતા પહેલા સરનામાંની પુષ્ટિ કરો.",
+        "invalidAddress": "આ સરનામું માન્ય નથી.",
+        "zilOutage": "ZIL API માંથી લાવવામાં અસમર્થ.",
+        "success": "સફળતાપૂર્વક UR {રકમ}} BURST ને {{સરનામું} sent પર મોકલ્યું.",
+        "failure": "BURST મોકલવામાં નિષ્ફળ. કૃપા કરીને તમારી પ્રવેશો તપાસો અને ફરીથી પ્રયાસ કરો."
+      },
+      "scan": {
+        "title": "બર્સ્ટ ક્યૂઆર કોડ સ્કેન કરો"
+      }
+    }
+  },
+  "settings": {
+    "screens": {
+      "settings": {
+        "title": "સેટિંગ્સ",
+        "erase": "બધા એકાઉન્ટ્સ ભૂંસી નાખો અને પિન ફરીથી સેટ કરો",
+        "confirmReset": "શું તમને ખાતરી છે? તમે આ ક્રિયાને પૂર્વવત્ કરી શકતા નથી.",
+        "confirmErase": "પુષ્ટિ કરો - ભૂંસી નાખો અને ફરીથી સેટ કરો",
+        "changeLanguage": "ભાષા પસંદ કરો",
+        "copyright": "ક Copyrightપિરાઇટ n બ્લેન્કી",
+        "getSupport": "સપોર્ટ મેળવો",
+        "appMustRestart": "એપ્લિકેશન ફરીથી પ્રારંભ થવી જ જોઇએ",
+        "restartNow": "ફરીથી શરૂ કરો",
+        "about": "વિશે",
+        "attributions": "એટ્રિબ્યુશન",
+        "manageSubscription": "સબ્સ્ક્રિપ્શન મેનેજ કરો",
+        "privacy": "ગોપનીયતા નીતિ",
+        "terms": "નિયમો અને શરત",
+        "restoreSubscription": "ઉમેદવારી પુન Restસ્થાપિત કરો",
+        "general": "જનરલ"
+      }
+    }
+  },
+  "home": {
+    "screens": {
+      "welcome": {
+        "emptyAddresses": "તમારા સરનામાં ખાલી છે",
+        "zeroBalance": "ઝીરો બેલેન્સ",
+        "grossBalance": "ગ્રોસ બેલેન્સ"
+      }
+    }
+  }
+}

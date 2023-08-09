@@ -1,0 +1,244 @@
+{
+  "auth": {
+    "errors": {
+      "accountExist": "Hesap zaten içe aktarıldı",
+      "serverErrorAddingAccount": "Sunucu Hatası: Hesap eklenmedi.",
+      "incorrectAddress": "Yanlış BURST adresi",
+      "incorrectPasscode": "Yanlış şifre",
+      "incorrectPassphrase": "Yanlış şifre",
+      "insecurePin": "Güvenli olmayan PIN, önerilen {{uzunluk}} karakter",
+      "noUnstoppableAddressesFound": "Desteklenen adres bulunamadı.",
+      "serverErrorSavingReceipt": "Sunucu Hatası: Makbuz kaydedilemedi.",
+      "missingDeviceToken": "Bu uygulamayı kullanmak için push bildirimlerinin etkinleştirilmesi gerekir. Lütfen kaldırıp yeniden yükleyin ve push bildirimlerini kabul edin.",
+      "serverErrorFetchingReceipts": "Sunucu Hatası: Makbuzlar alınamıyor."
+    },
+    "modals": {
+      "enterPasscode": {
+        "passcodeHint": "Şifreyi gir",
+        "forgotPin": "PIN'inizi mi unuttunuz?",
+        "confirmReset": "Tüm hesaplar kaldırılsın ve PIN sıfırlansın mı?",
+        "welcomeBack": "Tekrar hoşgeldiniz"
+      },
+      "setPasscode": {
+        "enterAgain": "Şifreyi tekrar girin",
+        "passcodeHint": "Lütfen cihazınızın güvenliğini sağlamak için bir şifre belirleyin"
+      },
+      "currencyList": {
+        "coinbaseHint": "Coinbase'de bunlardan herhangi birine sahipseniz, Block Monitor onları izleyebilir.",
+        "fullySupported": "Tam olarak desteklenen blok zincirleri",
+        "header": "Desteklenen Para Birimleri",
+        "supportedViaCoinbase": "Coinbase ile desteklenir"
+      },
+      "purchase": {
+        "equation": "{{max}} adres x {{total}} para birimi",
+        "goBack": "Geri dön",
+        "hint1": "İstediğiniz zaman iptal edin",
+        "hint2": "%10 tasarruf edin",
+        "hint3": "% 20 tasarruf edin",
+        "monthly": "Aylık {{price}}",
+        "notReadyYet": "Henüz hazır değil?",
+        "sixMonths": "6 Ay - {{price}}",
+        "tryFree": "Aktif izlemenin kilidini açmak için lütfen yükseltin",
+        "viewCurrencyList": "Para Birimi Listesini Görüntüle",
+        "watchUpTo": "{{max}} adrese kadar izleyin",
+        "yearly": "Yıllık - {{price}}"
+      }
+    },
+    "passcode": {
+      "passcode": "Şifre Kodu"
+    },
+    "screens": {
+      "accounts": {
+        "addAccount": "Hesap eklemek",
+        "createAccount": "Hesap oluştur",
+        "noAccounts": {
+          "hint": "Lütfen başlamak için bir hesap ekleyin.",
+          "title": "Hoşgeldiniz"
+        },
+        "title": "Hesaplar"
+      },
+      "accountDetails": {
+        "noTransactions": {
+          "title": "İşlem yok"
+        },
+        "copiedSuccessfully": "Adres başarıyla kopyalandı.",
+        "copy": "kopya"
+      },
+      "addAccount": {
+        "createAccount": "Hesap oluştur",
+        "title": "Hesap eklemek",
+        "selectCurrency": "Para birimini seçin",
+        "selectedCurrency": "Seçilen Para Birimi",
+        "address": "Hesap adresinizi girin",
+        "hint": "Parolanız DEĞİL!",
+        "success": "Hesaplar başarıyla eklendi.",
+        "addToken": "Belirteç / Sözleşme Adresi Eklensin mi?",
+        "tokenAddress": "Belirteç / Sözleşme Adresi",
+        "tokenDecimals": "Ondalık sayılar",
+        "isEthValidator": "ETH 2.0 Doğrulayıcı (dizin veya yayın anahtarı)"
+      },
+      "createAccount": {
+        "createAccount": "Hesap oluştur",
+        "enterPin": "Bir PIN girin",
+        "enterPinHint": "Bu hesabı güvence altına almak için bir PIN girin. PIN, hesabınızla yapılan işlemleri doğrulamak için kullanılır.",
+        "generateSeed": "Tohum üretin",
+        "generatedPercent": "Oluşturuldu:% {{yüzde}}",
+        "howToGenerate": "Rasgele bir tohum oluşturmak için parmağınızı alanın üzerinde hareket ettirin.",
+        "notePassphrase": "Parolayı not et",
+        "notePassphraseHint": "Parolanızı not edin. Parola, hesabınızın ana anahtarıdır. Bu nedenle, parolanızı her zaman güvenli ve özel tutun!",
+        "notePassphraseHint2": "Parolanızı cihazınızda bile saklamıyoruz, bu nedenle hesaba erişimi kurtaramıyoruz. Dikkat!",
+        "pinPlaceholder": "TOPLU İĞNE",
+        "step": "Adım {{step}} / 4",
+        "title": "Hesap oluştur"
+      },
+      "importAccount": {
+        "activeAccount": "Aktif hesap",
+        "activeAccountHint": "Aktif hesaplar BURST işlemleri yapmak için kullanılır. Kullanıcının bir parola üretmesini veya bir parola oluşturmasını gerektirir. Kullanıcının işlemler için bir PIN oluşturmasını gerektirir. Parola, özel anahtarınızı şifrelemek için yalnızca yerel olarak bir kez kullanılır; hiçbir yerde depolanmaz.",
+        "import": "İthalat",
+        "passiveAccountHint": "Bir BURST adresi biliyorsanız, ancak herhangi bir işlem yapmak istemiyorsanız pasif hesaplar yararlıdır. Artırılmış güvenlik sağlar. Herhangi bir zamanda aktif bir hesaba dönüştürülebilir.",
+        "title": "Hesabı içe aktar",
+        "showPassphrase": "Parolayı göster"
+      },
+      "notificationConfig": {
+        "header": "Şunlar tarafından tetiklenen bildirim:",
+        "option0": "Bakiye Artışı",
+        "option1": "Bakiye Azaltma",
+        "option2": "Her ikisi de",
+        "option3": "Asla",
+        "successBody": "Ayarlarınız kaydedildi.",
+        "successHeader": "Ayarlar güncellendi"
+      }
+    }
+  },
+  "core": {
+    "actions": {
+      "add": "Ekle",
+      "cancel": "İptal etmek",
+      "create": "Oluşturmak",
+      "next": "Sonraki",
+      "ok": "tamam",
+      "save": "Kayıt etmek",
+      "back": "Geri",
+      "submit": "Sunmak"
+    },
+    "currency": {
+      "BTC": {
+        "name": "BTC",
+        "value": "₿ {{value}}"
+      },
+      "BURST": {
+        "name": "BURST",
+        "value": "Ƀ {{value}}"
+      },
+      "USD": {
+        "name": "USD",
+        "value": "$ {{value}}"
+      },
+      "available": "{{y}} / {{x}} mevcut"
+    },
+    "dates": {
+      "months": {
+        "short": {
+          "JAN": "Ocak",
+          "FEB": "Şubat",
+          "MAR": "Mar",
+          "APR": "Nisan",
+          "MAY": "Mayıs",
+          "JUN": "Haziran",
+          "JUL": "Temmuz",
+          "AUG": "Ağustos",
+          "SEP": "Eylül",
+          "OCT": "Ekim",
+          "NOV": "Kasım",
+          "DEC": "Aralık"
+        }
+      }
+    },
+    "layout": {
+      "preventBackButton": {
+        "alertMessage": "Bilgi kaybolacak",
+        "alertTitle": "Emin misiniz?"
+      }
+    },
+    "screens": {
+      "home": {
+        "accountsList": "Hesap Listesi",
+        "recentTransactions": "Son İşlemler",
+        "title": "Bütün hesaplar",
+        "allAccounts": "Bütün hesaplar"
+      },
+      "loading": {
+        "loadingText": "Yükleniyor..."
+      }
+    }
+  },
+  "models": {
+    "account": {
+      "address": "Adres",
+      "id": "İD",
+      "passphrase": "Parola",
+      "pin": "TOPLU İĞNE",
+      "title": "hesap"
+    }
+  },
+  "transactions": {
+    "screens": {
+      "receive": {
+        "title": "Teslim almak",
+        "recipient": "alıcı",
+        "generate": "QR Kodu Oluştur",
+        "immutable": "değişmez"
+      },
+      "send": {
+        "amountNQT": "Miktar",
+        "feeNQT": "ücret",
+        "from": "itibaren",
+        "selectAccount": "Bir hesap seçin",
+        "sent": "Gönderilen!",
+        "title": "Gönder",
+        "button": "Göndermek için Hızlıca Kaydırın",
+        "to": "için",
+        "total": "Toplam: Ƀ {{value}}",
+        "noPublicKey": "Lütfen göndermeden önce adresi onaylayın.",
+        "invalidAddress": "Bu adres geçerli değil.",
+        "zilOutage": "ZIL API'sından getirilemedi.",
+        "success": "{{Address}} adresine başarıyla {{amount}} BURST gönderdi.",
+        "failure": "BURST gönderilemedi. Lütfen girişlerinizi kontrol edip tekrar deneyin."
+      },
+      "scan": {
+        "title": "BURST QR Kodunu Tara"
+      }
+    }
+  },
+  "settings": {
+    "screens": {
+      "settings": {
+        "title": "Ayarlar",
+        "erase": "Tüm hesapları sil ve PIN'i sıfırla",
+        "confirmReset": "Emin misiniz? Bu işlemi geri alamazsınız.",
+        "confirmErase": "Onayla - Sil ve Sıfırla",
+        "changeLanguage": "Dil Seçin",
+        "copyright": "Telif hakkı © Examp, LLC",
+        "getSupport": "Destek almak",
+        "appMustRestart": "Uygulama yeniden başlatılmalı",
+        "restartNow": "Şimdi yeniden başlat",
+        "about": "hakkında",
+        "attributions": "Atıflar",
+        "manageSubscription": "Aboneliği Yönet",
+        "privacy": "Gizlilik Politikası",
+        "terms": "Şartlar ve koşullar",
+        "restoreSubscription": "Aboneliği Geri Yükle",
+        "general": "Genel"
+      }
+    }
+  },
+  "home": {
+    "screens": {
+      "welcome": {
+        "emptyAddresses": "Adresleriniz boş görünüyor",
+        "zeroBalance": "Sıfır bakiyesi",
+        "grossBalance": "Brüt Bakiye"
+      }
+    }
+  }
+}

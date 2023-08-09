@@ -1,0 +1,244 @@
+{
+  "auth": {
+    "errors": {
+      "accountExist": "Konto już zaimportowane",
+      "serverErrorAddingAccount": "Błąd serwera: konto nie zostało dodane.",
+      "incorrectAddress": "Niepoprawny adres BURST",
+      "incorrectPasscode": "Niepoprawne hasło",
+      "incorrectPassphrase": "Niepoprawne hasło",
+      "insecurePin": "Niezabezpieczony PIN, zalecane minimum {{length}} znaków",
+      "noUnstoppableAddressesFound": "Nie znaleziono obsługiwanych adresów.",
+      "serverErrorSavingReceipt": "Błąd serwera: nie można zapisać rachunku.",
+      "missingDeviceToken": "Aby korzystać z tej aplikacji, należy włączyć powiadomienia push. Odinstaluj i zainstaluj ponownie, a następnie zaakceptuj powiadomienia push.",
+      "serverErrorFetchingReceipts": "Błąd serwera: nie można pobrać rachunków."
+    },
+    "modals": {
+      "enterPasscode": {
+        "passcodeHint": "Wprowadź kod dostępu",
+        "forgotPin": "Zapomniałeś PIN?",
+        "confirmReset": "Usunąć wszystkie konta i zresetować PIN?",
+        "welcomeBack": "Witamy spowrotem"
+      },
+      "setPasscode": {
+        "enterAgain": "Wprowadź ponownie hasło",
+        "passcodeHint": "Ustaw hasło, aby zabezpieczyć urządzenie"
+      },
+      "currencyList": {
+        "coinbaseHint": "Jeśli masz którekolwiek z nich w Coinbase, Block Monitor może je monitorować.",
+        "fullySupported": "W pełni obsługiwane łańcuchy bloków",
+        "header": "Obsługiwane waluty",
+        "supportedViaCoinbase": "Obsługiwane przez Coinbase"
+      },
+      "purchase": {
+        "equation": "{{max}} adres (y) x {{total}} waluty",
+        "goBack": "Wróć",
+        "hint1": "Anuluj w dowolnym momencie",
+        "hint2": "Oszczędź 10%",
+        "hint3": "Oszczędź 20%",
+        "monthly": "Cena za miesiac}}",
+        "notReadyYet": "Jeszcze niegotowe?",
+        "sixMonths": "6 miesięcy - {{price}}",
+        "tryFree": "Uaktualnij, aby odblokować aktywny monitoring",
+        "viewCurrencyList": "Wyświetl listę walut",
+        "watchUpTo": "Obserwuj do {{max}} adresów",
+        "yearly": "Rocznie - {{price}}"
+      }
+    },
+    "passcode": {
+      "passcode": "Kod dostępu"
+    },
+    "screens": {
+      "accounts": {
+        "addAccount": "Dodaj konto",
+        "createAccount": "Utwórz konto",
+        "noAccounts": {
+          "hint": "Dodaj konto, aby rozpocząć.",
+          "title": "Witamy"
+        },
+        "title": "Konta"
+      },
+      "accountDetails": {
+        "noTransactions": {
+          "title": "Brak transakcji"
+        },
+        "copiedSuccessfully": "Adres został skopiowany pomyślnie.",
+        "copy": "Kopiuj"
+      },
+      "addAccount": {
+        "createAccount": "Utwórz konto",
+        "title": "Dodaj konto",
+        "selectCurrency": "Wybierz walutę",
+        "selectedCurrency": "Wybrana waluta",
+        "address": "Wpisz adres swojego konta",
+        "hint": "NIE twoje hasło!",
+        "success": "Konta zostały dodane pomyślnie.",
+        "addToken": "Dodać adres tokena / umowy?",
+        "tokenAddress": "Adres tokena / umowy",
+        "tokenDecimals": "Ułamki dziesiętne",
+        "isEthValidator": "Walidator ETH 2.0 (indeks lub pubkey)"
+      },
+      "createAccount": {
+        "createAccount": "Utwórz konto",
+        "enterPin": "Wpisz PIN",
+        "enterPinHint": "Wprowadź kod PIN, aby zabezpieczyć to konto. Kod PIN służy do weryfikacji działań wykonanych na koncie.",
+        "generateSeed": "Generuj nasiona",
+        "generatedPercent": "Wygenerowano: {{percent}}%",
+        "howToGenerate": "Przesuń palcem po obszarze, aby utworzyć losowe ziarno.",
+        "notePassphrase": "Uwaga hasło",
+        "notePassphraseHint": "Zanotuj swoje hasło. Hasło jest kluczem głównym do twojego konta. Dlatego zachowaj swoje hasło zawsze bezpieczne i prywatne!",
+        "notePassphraseHint2": "Nie przechowujemy hasła nawet na Twoim urządzeniu, więc nie możemy odzyskać dostępu do konta. Zanotuj to!",
+        "pinPlaceholder": "KOŁEK",
+        "step": "Krok {{step}} / 4",
+        "title": "Utwórz konto"
+      },
+      "importAccount": {
+        "activeAccount": "Aktywne konto",
+        "activeAccountHint": "Konta aktywne służą do dokonywania transakcji BURST. Wymaga od użytkownika wygenerowania hasła lub podania go. Wymaga od użytkownika utworzenia kodu PIN do transakcji. Hasło jest używane tylko raz lokalnie do szyfrowania twojego klucza prywatnego; nigdzie nie jest przechowywany.",
+        "import": "Import",
+        "passiveAccountHint": "Konta pasywne są przydatne, jeśli znasz adres BURST, ale nie zamierzasz dokonywać żadnych transakcji. Dodaje większe bezpieczeństwo. Można w dowolnym momencie zamienić na aktywne konto.",
+        "title": "Zaimportuj konto",
+        "showPassphrase": "Pokaż hasło"
+      },
+      "notificationConfig": {
+        "header": "Powiadomienie wywołane przez:",
+        "option0": "Zwiększenie salda",
+        "option1": "Zmniejszenie salda",
+        "option2": "Obydwa",
+        "option3": "Nigdy",
+        "successBody": "Twoje ustawienia zostały zapisane.",
+        "successHeader": "Ustawienia zaktualizowane"
+      }
+    }
+  },
+  "core": {
+    "actions": {
+      "add": "Dodaj",
+      "cancel": "anulować",
+      "create": "Stwórz",
+      "next": "Kolejny",
+      "ok": "dobrze",
+      "save": "Zapisać",
+      "back": "Z powrotem",
+      "submit": "Zatwierdź"
+    },
+    "currency": {
+      "BTC": {
+        "name": "BTC",
+        "value": "₿ {{value}}"
+      },
+      "BURST": {
+        "name": "BURST",
+        "value": "Ƀ {{value}}"
+      },
+      "USD": {
+        "name": "USD",
+        "value": "$ {{value}}"
+      },
+      "available": "Dostępne {{x}} z {{y}}"
+    },
+    "dates": {
+      "months": {
+        "short": {
+          "JAN": "Jan",
+          "FEB": "Luty",
+          "MAR": "Zniszczyć",
+          "APR": "Kwi",
+          "MAY": "Może",
+          "JUN": "Jun",
+          "JUL": "Jul",
+          "AUG": "Sierpnia",
+          "SEP": "Wrz",
+          "OCT": "Paź",
+          "NOV": "Listopad",
+          "DEC": "Grudzień"
+        }
+      }
+    },
+    "layout": {
+      "preventBackButton": {
+        "alertMessage": "Informacje zostaną utracone",
+        "alertTitle": "Jesteś pewny?"
+      }
+    },
+    "screens": {
+      "home": {
+        "accountsList": "Lista kont",
+        "recentTransactions": "ostatnie tranzakcje",
+        "title": "Wszystkie konta",
+        "allAccounts": "Wszystkie konta"
+      },
+      "loading": {
+        "loadingText": "Ładowanie..."
+      }
+    }
+  },
+  "models": {
+    "account": {
+      "address": "Adres",
+      "id": "ID",
+      "passphrase": "Hasło",
+      "pin": "KOŁEK",
+      "title": "Konto"
+    }
+  },
+  "transactions": {
+    "screens": {
+      "receive": {
+        "title": "Otrzymać",
+        "recipient": "Odbiorca",
+        "generate": "Wygeneruj kod QR",
+        "immutable": "Niezmienny"
+      },
+      "send": {
+        "amountNQT": "Ilość",
+        "feeNQT": "Opłata",
+        "from": "Od",
+        "selectAccount": "Wybierz konto",
+        "sent": "Wysłano!",
+        "title": "Wysłać",
+        "button": "Przesuń, aby wysłać",
+        "to": "Do",
+        "total": "Łącznie: Ƀ {{wartość}}",
+        "noPublicKey": "Proszę potwierdzić adres przed wysłaniem.",
+        "invalidAddress": "Ten adres jest nieprawidłowy.",
+        "zilOutage": "Nie można pobrać z interfejsu API ZIL.",
+        "success": "Pomyślnie wysłano {{kwota}} BURST na adres {{adres}}.",
+        "failure": "Nie udało się wysłać BURST. Sprawdź swoje wpisy i spróbuj ponownie."
+      },
+      "scan": {
+        "title": "Zeskanuj kod QR BURST"
+      }
+    }
+  },
+  "settings": {
+    "screens": {
+      "settings": {
+        "title": "Ustawienia",
+        "erase": "Usuń wszystkie konta i zresetuj PIN",
+        "confirmReset": "Jesteś pewny? Nie możesz cofnąć tej akcji.",
+        "confirmErase": "Potwierdź - Usuń i zresetuj",
+        "changeLanguage": "Wybierz język",
+        "copyright": "Prawa autorskie © Examp, LLC",
+        "getSupport": "Uzyskać wsparcie",
+        "appMustRestart": "Aplikacja musi zostać ponownie uruchomiona",
+        "restartNow": "Zrestartuj teraz",
+        "about": "O",
+        "attributions": "Atrybucje",
+        "manageSubscription": "Zarządzaj subskrypcją",
+        "privacy": "Polityka prywatności",
+        "terms": "Zasady i warunki",
+        "restoreSubscription": "Przywróć subskrypcję",
+        "general": "Ogólny"
+      }
+    }
+  },
+  "home": {
+    "screens": {
+      "welcome": {
+        "emptyAddresses": "Twoje adresy wydają się być puste",
+        "zeroBalance": "Zerowa równowaga",
+        "grossBalance": "Saldo brutto"
+      }
+    }
+  }
+}

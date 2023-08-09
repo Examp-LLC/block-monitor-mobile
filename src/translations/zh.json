@@ -1,0 +1,244 @@
+{
+  "auth": {
+    "errors": {
+      "accountExist": "帐户已导入",
+      "serverErrorAddingAccount": "服务器错误：未添加帐户。",
+      "incorrectAddress": "不正确的BURST地址",
+      "incorrectPasscode": "密码不正确",
+      "incorrectPassphrase": "密码不正确",
+      "insecurePin": "PIN码不安全，建议至少{{length}}个字符",
+      "noUnstoppableAddressesFound": "找不到支持的地址。",
+      "serverErrorSavingReceipt": "服务器错误：无法保存收据。",
+      "missingDeviceToken": "必须启用推送通知才能使用此应用程序。请卸载并重新安装，并接受推送通知。",
+      "serverErrorFetchingReceipts": "服务器错误：无法提取收据。"
+    },
+    "modals": {
+      "enterPasscode": {
+        "passcodeHint": "输入密码",
+        "forgotPin": "忘记密码了吗？",
+        "confirmReset": "删除所有帐户并重设PIN码？",
+        "welcomeBack": "欢迎回来"
+      },
+      "setPasscode": {
+        "enterAgain": "再次输入密码",
+        "passcodeHint": "请设置密码以保护您的设备"
+      },
+      "currencyList": {
+        "coinbaseHint": "如果您在Coinbase中有这些，Block Monitor可以对其进行监视。",
+        "fullySupported": "完全支持的区块链",
+        "header": "支持的货币",
+        "supportedViaCoinbase": "通过Coinbase支持"
+      },
+      "purchase": {
+        "equation": "{{max}}个地址x {{total}}个货币",
+        "goBack": "回去",
+        "hint1": "随时取消",
+        "hint2": "节省 10%",
+        "hint3": "节省20％",
+        "monthly": "每月-{{price}}",
+        "notReadyYet": "还没有准备好？",
+        "sixMonths": "6个月-{{price}}",
+        "tryFree": "请升级以解锁主动监控",
+        "viewCurrencyList": "查看货币清单",
+        "watchUpTo": "观看多达{{max}}个地址",
+        "yearly": "每年-{{price}}"
+      }
+    },
+    "passcode": {
+      "passcode": "密码"
+    },
+    "screens": {
+      "accounts": {
+        "addAccount": "新增帐户",
+        "createAccount": "创建帐号",
+        "noAccounts": {
+          "hint": "请添加一个帐户以开始使用。",
+          "title": "欢迎"
+        },
+        "title": "帐目"
+      },
+      "accountDetails": {
+        "noTransactions": {
+          "title": "没有交易"
+        },
+        "copiedSuccessfully": "地址复制成功。",
+        "copy": "复制"
+      },
+      "addAccount": {
+        "createAccount": "创建帐号",
+        "title": "新增帐户",
+        "selectCurrency": "选择货币",
+        "selectedCurrency": "所选货币",
+        "address": "输入您的帐户地址",
+        "hint": "不是您的密码！",
+        "success": "帐户已成功添加。",
+        "addToken": "添加令牌/合同地址？",
+        "tokenAddress": "代币/合约地址",
+        "tokenDecimals": "小数点",
+        "isEthValidator": "ETH 2.0验证程序（索引或公钥）"
+      },
+      "createAccount": {
+        "createAccount": "创建帐号",
+        "enterPin": "输入密码",
+        "enterPinHint": "输入PIN码以保护此帐户。 PIN码用于验证您的帐户所执行的操作。",
+        "generateSeed": "产生种子",
+        "generatedPercent": "产生：{{percent}}％",
+        "howToGenerate": "在区域上移动手指以创建随机种子。",
+        "notePassphrase": "注意密码",
+        "notePassphraseHint": "记下您的密码短语。密码是您帐户的主密钥。因此，请确保您的密码短语始终安全和私密！",
+        "notePassphraseHint2": "即使在您的设备上，我们也不会存储密码，因此我们无法恢复对帐户的访问。注意！",
+        "pinPlaceholder": "销",
+        "step": "步骤{{step}} / 4",
+        "title": "创建帐号"
+      },
+      "importAccount": {
+        "activeAccount": "有效帐户",
+        "activeAccountHint": "活动帐户用于进行BURST交易。要求用户生成一个密码短语或提供一个密码短语。要求用户为交易创建PIN。该密码短语仅在本地使用一次以加密您的私钥；它不会存储在任何地方。",
+        "import": "进口",
+        "passiveAccountHint": "如果您知道BURST地址，但不打算进行任何交易，则被动帐户非常有用。增加了安全性。可以随时转换为有效帐户。",
+        "title": "汇入帐户",
+        "showPassphrase": "显示密码"
+      },
+      "notificationConfig": {
+        "header": "通知由：",
+        "option0": "余额增加",
+        "option1": "余额减少",
+        "option2": "两个都",
+        "option3": "绝不",
+        "successBody": "你的设置已保存。",
+        "successHeader": "设置更新"
+      }
+    }
+  },
+  "core": {
+    "actions": {
+      "add": "加",
+      "cancel": "取消",
+      "create": "创建",
+      "next": "下一个",
+      "ok": "好",
+      "save": "保存",
+      "back": "背部",
+      "submit": "提交"
+    },
+    "currency": {
+      "BTC": {
+        "name": "BTC",
+        "value": "₿ {{value}}"
+      },
+      "BURST": {
+        "name": "BURST",
+        "value": "Ƀ {{value}}"
+      },
+      "USD": {
+        "name": "USD",
+        "value": "$ {{value}}"
+      },
+      "available": "{{y}}个中的{{x}}个可用"
+    },
+    "dates": {
+      "months": {
+        "short": {
+          "JAN": "一月",
+          "FEB": "二月",
+          "MAR": "三月",
+          "APR": "四月",
+          "MAY": "可以",
+          "JUN": "君",
+          "JUL": "七月",
+          "AUG": "八月",
+          "SEP": "九月",
+          "OCT": "十月",
+          "NOV": "十一月",
+          "DEC": "十二月"
+        }
+      }
+    },
+    "layout": {
+      "preventBackButton": {
+        "alertMessage": "信息将丢失",
+        "alertTitle": "你确定吗？"
+      }
+    },
+    "screens": {
+      "home": {
+        "accountsList": "帐户清单",
+        "recentTransactions": "最近交易",
+        "title": "所有帐户",
+        "allAccounts": "所有帐户"
+      },
+      "loading": {
+        "loadingText": "载入中..."
+      }
+    }
+  },
+  "models": {
+    "account": {
+      "address": "地址",
+      "id": "ID",
+      "passphrase": "密码短语",
+      "pin": "销",
+      "title": "帐户"
+    }
+  },
+  "transactions": {
+    "screens": {
+      "receive": {
+        "title": "接收",
+        "recipient": "接受者",
+        "generate": "产生QR码",
+        "immutable": "一成不变的"
+      },
+      "send": {
+        "amountNQT": "量",
+        "feeNQT": "费用",
+        "from": "从",
+        "selectAccount": "选择一个帐号",
+        "sent": "已发送！",
+        "title": "发送",
+        "button": "滑动即可发送",
+        "to": "至",
+        "total": "总计：Ƀ{{value}}",
+        "noPublicKey": "请在发送前确认地址。",
+        "invalidAddress": "该地址无效。",
+        "zilOutage": "无法从ZIL API获取。",
+        "success": "已成功将{{amount}}突发发送至{{address}}。",
+        "failure": "无法发送BURST。请检查您的输入，然后重试。"
+      },
+      "scan": {
+        "title": "扫描BURST QR码"
+      }
+    }
+  },
+  "settings": {
+    "screens": {
+      "settings": {
+        "title": "设定值",
+        "erase": "清除所有帐户并重置PIN",
+        "confirmReset": "你确定吗？您无法撤消此操作。",
+        "confirmErase": "确认-擦除并重置",
+        "changeLanguage": "选择语言",
+        "copyright": "版权所有©Examp, LLC",
+        "getSupport": "得到支持",
+        "appMustRestart": "应用必须重启",
+        "restartNow": "现在重启",
+        "about": "关于",
+        "attributions": "归因",
+        "manageSubscription": "管理订阅",
+        "privacy": "隐私政策",
+        "terms": "条款和条件",
+        "restoreSubscription": "恢复订阅",
+        "general": "一般的"
+      }
+    }
+  },
+  "home": {
+    "screens": {
+      "welcome": {
+        "emptyAddresses": "您的地址似乎为空",
+        "zeroBalance": "零余额",
+        "grossBalance": "总余额"
+      }
+    }
+  }
+}

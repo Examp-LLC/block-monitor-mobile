@@ -1,0 +1,244 @@
+{
+  "auth": {
+    "errors": {
+      "accountExist": "Cuenta ya importada",
+      "serverErrorAddingAccount": "Error del servidor: cuenta no agregada.",
+      "incorrectAddress": "Dirección de ráfaga incorrecta",
+      "incorrectPasscode": "Código de acceso incorrecto",
+      "incorrectPassphrase": "Frase de contraseña incorrecta",
+      "insecurePin": "PIN inseguro, caracteres {{length}} mínimos recomendados",
+      "noUnstoppableAddressesFound": "No se encontraron direcciones compatibles.",
+      "serverErrorSavingReceipt": "Error del servidor: no se puede guardar el recibo.",
+      "missingDeviceToken": "Las notificaciones push deben estar habilitadas para usar esta aplicación. Desinstale y vuelva a instalar y acepte las notificaciones automáticas.",
+      "serverErrorFetchingReceipts": "Error del servidor: no se pueden recuperar los recibos."
+    },
+    "modals": {
+      "enterPasscode": {
+        "passcodeHint": "Introduce un código de acceso",
+        "forgotPin": "¿Olvidó su PIN?",
+        "confirmReset": "¿Eliminar todas las cuentas y restablecer el PIN?",
+        "welcomeBack": "Bienvenido de nuevo"
+      },
+      "setPasscode": {
+        "enterAgain": "Ingrese la contraseña nuevamente",
+        "passcodeHint": "Establezca una contraseña para asegurar su dispositivo"
+      },
+      "currencyList": {
+        "coinbaseHint": "Si tiene alguno de estos en Coinbase, Block Monitor puede monitorearlos.",
+        "fullySupported": "Blockchains totalmente compatibles",
+        "header": "Monedas admitidas",
+        "supportedViaCoinbase": "Compatible a través de Coinbase"
+      },
+      "purchase": {
+        "equation": "{{max}} dirección (es) x {{total}} monedas",
+        "goBack": "Regresa",
+        "hint1": "Cancelar en cualquier momento",
+        "hint2": "Ahorre 10%",
+        "hint3": "Ahorre 20%",
+        "monthly": "Mensual - {{price}}",
+        "notReadyYet": "¿No está listo todavía?",
+        "sixMonths": "6 meses - {{price}}",
+        "tryFree": "Actualice para desbloquear el monitoreo activo",
+        "viewCurrencyList": "Ver lista de divisas",
+        "watchUpTo": "Mire hasta {{max}} direcciones",
+        "yearly": "Anual - {{price}}"
+      }
+    },
+    "passcode": {
+      "passcode": "Código de acceso"
+    },
+    "screens": {
+      "accounts": {
+        "addAccount": "Añadir cuenta",
+        "createAccount": "Crear una cuenta",
+        "noAccounts": {
+          "hint": "Agregue una cuenta para comenzar.",
+          "title": "Bienvenidos"
+        },
+        "title": "Cuentas"
+      },
+      "accountDetails": {
+        "noTransactions": {
+          "title": "Sin transacciones"
+        },
+        "copiedSuccessfully": "Dirección copiada con éxito.",
+        "copy": "Copiar"
+      },
+      "addAccount": {
+        "createAccount": "Crear una cuenta",
+        "title": "Añadir cuenta",
+        "selectCurrency": "Seleccione el tipo de moneda",
+        "selectedCurrency": "Moneda seleccionada",
+        "address": "Ingrese la dirección de su cuenta",
+        "hint": "¡NO es tu frase de contraseña!",
+        "success": "Cuenta (s) agregadas con éxito.",
+        "addToken": "¿Agregar Token / Dirección de contrato?",
+        "tokenAddress": "Dirección de token / contrato",
+        "tokenDecimals": "Decimales",
+        "isEthValidator": "Validador ETH 2.0 (índice o clave pública)"
+      },
+      "createAccount": {
+        "createAccount": "Crear una cuenta",
+        "enterPin": "Ingrese un PIN",
+        "enterPinHint": "Ingrese un PIN para proteger esta cuenta. El PIN se utiliza para verificar las acciones realizadas con su cuenta.",
+        "generateSeed": "Generar semilla",
+        "generatedPercent": "Generado: {{percent}}%",
+        "howToGenerate": "Mueva su dedo por el área para crear una semilla aleatoria.",
+        "notePassphrase": "Nota frase de contraseña",
+        "notePassphraseHint": "Anote su frase de contraseña. La frase de contraseña es la clave maestra de su cuenta. Por lo tanto, ¡mantenga su frase de contraseña siempre segura y privada!",
+        "notePassphraseHint2": "No almacenamos frase de contraseña ni siquiera en su dispositivo, por lo que no podemos recuperar el acceso a la cuenta. ¡Anótelo!",
+        "pinPlaceholder": "ALFILER",
+        "step": "Paso {{step}} / 4",
+        "title": "Crear una cuenta"
+      },
+      "importAccount": {
+        "activeAccount": "Cuenta activa",
+        "activeAccountHint": "Las cuentas activas se utilizan para realizar transacciones BURST. Requiere que el usuario genere una frase de contraseña o proporcione una. Requiere que un usuario cree un PIN para las transacciones. La frase de contraseña solo se usa una vez localmente para cifrar su clave privada; No se almacena en ningún lado.",
+        "import": "Importar",
+        "passiveAccountHint": "Las cuentas pasivas son útiles si conoce una dirección BURST, pero no tiene intención de realizar ninguna transacción. Agrega mayor seguridad. Se puede convertir a una cuenta activa en cualquier momento.",
+        "title": "Importar cuenta",
+        "showPassphrase": "Mostrar frase de contraseña"
+      },
+      "notificationConfig": {
+        "header": "Notificación provocada por:",
+        "option0": "Aumento de Saldo",
+        "option1": "Disminución de saldo",
+        "option2": "Ambos",
+        "option3": "Nunca",
+        "successBody": "Su configuración ha sido guardada.",
+        "successHeader": "Ajustes actualizan"
+      }
+    }
+  },
+  "core": {
+    "actions": {
+      "add": "Añadir",
+      "cancel": "Cancelar",
+      "create": "Crear",
+      "next": "próximo",
+      "ok": "Okay",
+      "save": "Salvar",
+      "back": "atrás",
+      "submit": "Enviar"
+    },
+    "currency": {
+      "BTC": {
+        "name": "BTC",
+        "value": "₿ {{value}}"
+      },
+      "BURST": {
+        "name": "BURST",
+        "value": "Ƀ {{value}}"
+      },
+      "USD": {
+        "name": "USD",
+        "value": "$ {{value}}"
+      },
+      "available": "{{x}} de {{y}} disponible"
+    },
+    "dates": {
+      "months": {
+        "short": {
+          "JAN": "ene",
+          "FEB": "feb",
+          "MAR": "mar",
+          "APR": "abr",
+          "MAY": "Mayo",
+          "JUN": "jun",
+          "JUL": "jul",
+          "AUG": "ago",
+          "SEP": "sep",
+          "OCT": "oct",
+          "NOV": "nov",
+          "DEC": "dic"
+        }
+      }
+    },
+    "layout": {
+      "preventBackButton": {
+        "alertMessage": "Se perderá la información",
+        "alertTitle": "¿Estás seguro?"
+      }
+    },
+    "screens": {
+      "home": {
+        "accountsList": "Lista de cuentas",
+        "recentTransactions": "Transacciones Recientes",
+        "title": "Todas las cuentas",
+        "allAccounts": "Todas las cuentas"
+      },
+      "loading": {
+        "loadingText": "Cargando..."
+      }
+    }
+  },
+  "models": {
+    "account": {
+      "address": "Habla a",
+      "id": "IDENTIFICACIÓN",
+      "passphrase": "Frase de contraseña",
+      "pin": "ALFILER",
+      "title": "Cuenta"
+    }
+  },
+  "transactions": {
+    "screens": {
+      "receive": {
+        "title": "Recibir",
+        "recipient": "Recipiente",
+        "generate": "Generar código QR",
+        "immutable": "Inmutable"
+      },
+      "send": {
+        "amountNQT": "Cantidad",
+        "feeNQT": "Cuota",
+        "from": "Desde",
+        "selectAccount": "Selecciona una cuenta",
+        "sent": "¡Expedido!",
+        "title": "Enviar",
+        "button": "Deslizar para enviar",
+        "to": "A",
+        "total": "Total: Ƀ {{valor}}",
+        "noPublicKey": "Por favor confirme la dirección antes de enviar.",
+        "invalidAddress": "Esta dirección no es válida",
+        "zilOutage": "No se puede obtener de la API de ZIL.",
+        "success": "Se envió correctamente {{cantidad}} RÁFAGA a {{dirección}}.",
+        "failure": "No se pudo enviar BURST. Verifique sus entradas e intente nuevamente."
+      },
+      "scan": {
+        "title": "Escanee el código QR BURST"
+      }
+    }
+  },
+  "settings": {
+    "screens": {
+      "settings": {
+        "title": "Configuraciones",
+        "erase": "Borrar todas las cuentas y restablecer PIN",
+        "confirmReset": "¿Estás seguro? No puedes deshacer esta acción.",
+        "confirmErase": "Confirmar: borrar y restablecer",
+        "changeLanguage": "Seleccione el idioma",
+        "copyright": "Copyright © Examp, LLC",
+        "getSupport": "Obtener apoyo",
+        "appMustRestart": "La aplicación debe reiniciarse",
+        "restartNow": "Reiniciar ahora",
+        "about": "Acerca de",
+        "attributions": "Atribuciones",
+        "manageSubscription": "Administrar suscripción",
+        "privacy": "Política de privacidad",
+        "terms": "Términos y Condiciones",
+        "restoreSubscription": "Restaurar suscripción",
+        "general": "General"
+      }
+    }
+  },
+  "home": {
+    "screens": {
+      "welcome": {
+        "emptyAddresses": "Tus direcciones parecen estar vacías",
+        "zeroBalance": "Saldo cero",
+        "grossBalance": "Saldo bruto"
+      }
+    }
+  }
+}

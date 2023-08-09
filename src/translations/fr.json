@@ -1,0 +1,244 @@
+{
+  "auth": {
+    "errors": {
+      "accountExist": "Compte déjà importé",
+      "serverErrorAddingAccount": "Erreur de serveur: compte non ajouté.",
+      "incorrectAddress": "Adresse BURST incorrecte",
+      "incorrectPasscode": "Mot de passe incorrect",
+      "incorrectPassphrase": "Phrase de passe incorrecte",
+      "insecurePin": "Code PIN non sécurisé, caractères {{length}} recommandés minimum",
+      "noUnstoppableAddressesFound": "Aucune adresse prise en charge trouvée.",
+      "serverErrorSavingReceipt": "Erreur de serveur: impossible d'enregistrer le reçu.",
+      "missingDeviceToken": "Les notifications push doivent être activées pour utiliser cette application. Veuillez désinstaller et réinstaller, et accepter les notifications push.",
+      "serverErrorFetchingReceipts": "Erreur du serveur: impossible de récupérer les reçus."
+    },
+    "modals": {
+      "enterPasscode": {
+        "passcodeHint": "Entrer le mot de passe",
+        "forgotPin": "PIN oublié?",
+        "confirmReset": "Supprimer tous les comptes et réinitialiser le code PIN?",
+        "welcomeBack": "Content de te revoir"
+      },
+      "setPasscode": {
+        "enterAgain": "Entrez à nouveau le mot de passe",
+        "passcodeHint": "Veuillez définir un mot de passe pour sécuriser votre appareil"
+      },
+      "currencyList": {
+        "coinbaseHint": "Si vous en avez dans Coinbase, Block Monitor peut les surveiller.",
+        "fullySupported": "Blockchains entièrement pris en charge",
+        "header": "Devises prises en charge",
+        "supportedViaCoinbase": "Pris en charge via Coinbase"
+      },
+      "purchase": {
+        "equation": "{{max}} adresse(s) x {{total}} devises",
+        "goBack": "Retourner",
+        "hint1": "Annulez à tout moment",
+        "hint2": "Économisez 10 %",
+        "hint3": "Économisez 20%",
+        "monthly": "Mensuel - {{price}}",
+        "notReadyYet": "Pas encore prêt?",
+        "sixMonths": "6 mois - {{price}}",
+        "tryFree": "Veuillez mettre à niveau pour déverrouiller la surveillance active",
+        "viewCurrencyList": "Voir la liste des devises",
+        "watchUpTo": "Surveillez jusqu'à {{max}} adresses",
+        "yearly": "Annuel - {{price}}"
+      }
+    },
+    "passcode": {
+      "passcode": "Code d'accès"
+    },
+    "screens": {
+      "accounts": {
+        "addAccount": "Ajouter un compte",
+        "createAccount": "Créer un compte",
+        "noAccounts": {
+          "hint": "Veuillez ajouter un compte pour commencer.",
+          "title": "Bienvenue"
+        },
+        "title": "Comptes"
+      },
+      "accountDetails": {
+        "noTransactions": {
+          "title": "Aucune transaction"
+        },
+        "copiedSuccessfully": "Adresse copiée avec succès.",
+        "copy": "Copie"
+      },
+      "addAccount": {
+        "createAccount": "Créer un compte",
+        "title": "Ajouter un compte",
+        "selectCurrency": "Sélectionnez la devise",
+        "selectedCurrency": "Devise sélectionnée",
+        "address": "Entrez votre adresse de compte",
+        "hint": "PAS votre phrase secrète!",
+        "success": "Compte (s) ajouté (s) avec succès.",
+        "addToken": "Ajouter une adresse de jeton / contrat?",
+        "tokenAddress": "Adresse de jeton / contrat",
+        "tokenDecimals": "Décimales",
+        "isEthValidator": "Validateur ETH 2.0 (index ou pubkey)"
+      },
+      "createAccount": {
+        "createAccount": "Créer un compte",
+        "enterPin": "Entrez un code PIN",
+        "enterPinHint": "Saisissez un code PIN pour sécuriser ce compte. Le code PIN est utilisé pour vérifier les actions effectuées avec votre compte.",
+        "generateSeed": "Générer des semences",
+        "generatedPercent": "Généré: {{percent}}%",
+        "howToGenerate": "Déplacez votre doigt sur la zone pour créer une graine aléatoire.",
+        "notePassphrase": "Remarque sur la phrase secrète",
+        "notePassphraseHint": "Notez votre phrase secrète. La phrase secrète est la clé principale de votre compte. Par conséquent, gardez votre phrase secrète toujours en sécurité et privée!",
+        "notePassphraseHint2": "Nous ne stockons pas la phrase secrète même sur votre appareil, nous ne pouvons donc pas récupérer l'accès au compte. Notez-le!",
+        "pinPlaceholder": "ÉPINGLE",
+        "step": "Étape {{step}} / 4",
+        "title": "Créer un compte"
+      },
+      "importAccount": {
+        "activeAccount": "Compte actif",
+        "activeAccountHint": "Les comptes actifs sont utilisés pour effectuer des transactions BURST. L'utilisateur doit générer une phrase secrète ou en fournir une. Nécessite qu'un utilisateur crée un code PIN pour les transactions. La phrase secrète n'est utilisée qu'une seule fois localement pour crypter votre clé privée; il n'est stocké nulle part.",
+        "import": "Importation",
+        "passiveAccountHint": "Les comptes passifs sont utiles si vous connaissez une adresse BURST, mais n'avez pas l'intention de faire de transactions. Ajoute une sécurité accrue. Peut être converti à tout moment en compte actif.",
+        "title": "Importer un compte",
+        "showPassphrase": "Afficher la phrase secrète"
+      },
+      "notificationConfig": {
+        "header": "Notification déclenchée par :",
+        "option0": "Augmentation du solde",
+        "option1": "Diminution du solde",
+        "option2": "Les deux",
+        "option3": "Jamais",
+        "successBody": "Vos paramètres ont été enregistrés.",
+        "successHeader": "Paramètres mis à jour"
+      }
+    }
+  },
+  "core": {
+    "actions": {
+      "add": "Ajouter",
+      "cancel": "Annuler",
+      "create": "Créer",
+      "next": "Prochain",
+      "ok": "D'accord",
+      "save": "sauvegarder",
+      "back": "Retour",
+      "submit": "Soumettre"
+    },
+    "currency": {
+      "BTC": {
+        "name": "BTC",
+        "value": "₿ {{value}}"
+      },
+      "BURST": {
+        "name": "BURST",
+        "value": "Ƀ {{value}}"
+      },
+      "USD": {
+        "name": "USD",
+        "value": "$ {{value}}"
+      },
+      "available": "{{x}} sur {{y}} disponibles"
+    },
+    "dates": {
+      "months": {
+        "short": {
+          "JAN": "Jan",
+          "FEB": "fév",
+          "MAR": "Mar",
+          "APR": "avr",
+          "MAY": "Mai",
+          "JUN": "Juin",
+          "JUL": "juil",
+          "AUG": "Août",
+          "SEP": "SEP",
+          "OCT": "oct",
+          "NOV": "nov",
+          "DEC": "déc"
+        }
+      }
+    },
+    "layout": {
+      "preventBackButton": {
+        "alertMessage": "Les informations seront perdues",
+        "alertTitle": "Êtes-vous sûr?"
+      }
+    },
+    "screens": {
+      "home": {
+        "accountsList": "Liste des comptes",
+        "recentTransactions": "transactions récentes",
+        "title": "Tous les comptes",
+        "allAccounts": "Tous les comptes"
+      },
+      "loading": {
+        "loadingText": "Chargement..."
+      }
+    }
+  },
+  "models": {
+    "account": {
+      "address": "Adresse",
+      "id": "identifiant",
+      "passphrase": "Phrase de passe",
+      "pin": "ÉPINGLE",
+      "title": "Compte"
+    }
+  },
+  "transactions": {
+    "screens": {
+      "receive": {
+        "title": "Recevoir",
+        "recipient": "Bénéficiaire",
+        "generate": "Générer un code QR",
+        "immutable": "Immuable"
+      },
+      "send": {
+        "amountNQT": "Montant",
+        "feeNQT": "Frais",
+        "from": "De",
+        "selectAccount": "Sélectionnez un compte",
+        "sent": "Envoyé!",
+        "title": "Envoyer",
+        "button": "Faites glisser pour envoyer",
+        "to": "À",
+        "total": "Total: Ƀ {{valeur}}",
+        "noPublicKey": "Veuillez confirmer l'adresse avant l'envoi.",
+        "invalidAddress": "Cette adresse n'est pas valide.",
+        "zilOutage": "Impossible de récupérer à partir de l'API ZIL.",
+        "success": "Envoi {{amount}} BURST à {{address}} réussi.",
+        "failure": "Échec de l'envoi de BURST. Veuillez vérifier vos entrées et réessayer."
+      },
+      "scan": {
+        "title": "Scannez le code QR BURST"
+      }
+    }
+  },
+  "settings": {
+    "screens": {
+      "settings": {
+        "title": "Paramètres",
+        "erase": "Effacez tous les comptes et réinitialisez le code PIN",
+        "confirmReset": "Êtes-vous sûr? Vous ne pouvez pas annuler cette action.",
+        "confirmErase": "Confirmer - Effacer et réinitialiser",
+        "changeLanguage": "Choisir la langue",
+        "copyright": "Droit d'auteur © Examp, LLC",
+        "getSupport": "Obtenir de l'aide",
+        "appMustRestart": "L'application doit être redémarrée",
+        "restartNow": "Redémarrer maintenant",
+        "about": "À propos de",
+        "attributions": "Attributions",
+        "manageSubscription": "Gérer l'abonnement",
+        "privacy": "Politique de confidentialité",
+        "terms": "Termes et conditions",
+        "restoreSubscription": "Restaurer l'abonnement",
+        "general": "Général"
+      }
+    }
+  },
+  "home": {
+    "screens": {
+      "welcome": {
+        "emptyAddresses": "Vos adresses semblent vides",
+        "zeroBalance": "Solde zéro",
+        "grossBalance": "Solde brut"
+      }
+    }
+  }
+}

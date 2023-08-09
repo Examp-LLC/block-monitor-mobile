@@ -1,0 +1,228 @@
+{
+  "auth": {
+    "errors": {
+      "accountExist": "Account already imported",
+      "serverErrorAddingAccount": "Server Error: Account not added.",
+      "serverErrorSavingReceipt": "Server Error: Unable to save receipt.",
+      "serverErrorFetchingReceipts": "Server Error: Unable to fetch receipts.",
+      "incorrectAddress": "Incorrect BURST-address",
+      "incorrectPasscode": "Incorrect passcode",
+      "incorrectPassphrase": "Incorrect passphrase",
+      "insecurePin": "Insecure PIN, recommended {{length}} chars minimum",
+      "noUnstoppableAddressesFound": "No supported addresses found.",
+      "missingDeviceToken": "Push notifications must be enabled to use this app. Please uninstall and reinstall, and accept push notifications."
+    },
+    "modals": {
+      "enterPasscode": {
+        "passcodeHint": "Please enter your PIN",
+        "forgotPin": "Forgot PIN?",
+        "confirmReset": "Remove all accounts and reset PIN?",
+        "welcomeBack": "Welcome back"
+      },
+      "setPasscode": {
+        "enterAgain": "Enter passcode again",
+        "passcodeHint": "Please set a passcode to secure your device"
+      },
+      "purchase": {
+        "goBack": "Go Back",
+        "notReadyYet": "Not Ready Yet?",
+        "watchUpTo": "Watch up to {{max}} addresses",
+        "equation": "{{max}} address(es) x {{total}} currencies",
+        "monthly": "Monthly - {{price}}",
+        "sixMonths": "6 Months - {{price}}",
+        "yearly": "Yearly - {{price}}",
+        "tryFree": "Please upgrade to unlock active monitoring",
+        "viewCurrencyList": "View Currency List",
+        "hint1": "Cancel anytime",
+        "hint2": "Save 10%",
+        "hint3": "Save 20%",
+        "go": "Go",
+        "havePromoCode": "Use promo code"
+      },
+      "currencyList": {
+        "header": "Supported Currencies",
+        "fullySupported": "Fully supported blockchains",
+        "supportedViaCoinbase": "Supported via Coinbase",
+        "coinbaseHint": "If you have any of these in Coinbase, Block Monitor can monitor them."
+      }
+    },
+    "passcode": {
+      "passcode": "Passcode"
+    },
+    "screens": {
+      "notificationConfig": {
+        "header": "Notification triggered by:",
+        "option0": "Balance Increase",
+        "option1": "Balance Decrease",
+        "option2": "Both",
+        "option3": "Never",
+        "successHeader": "Settings Updated",
+        "successBody": "Your settings have been saved."
+      },
+      "accounts": {
+        "addAccount": "Import",
+        "createAccount": "Create account",
+        "noAccounts": {
+          "hint": "Please add an address to get started.",
+          "title": "Welcome"
+        },
+        "title": "Accounts"
+      },
+      "accountDetails": {
+        "noTransactions": {
+          "title": "No transactions"
+        },
+        "copiedSuccessfully": "Address copied successfully.",
+        "copy": "Copy"
+      },
+      "addAccount": {
+        "createAccount": "Import address",
+        "title": "Import Address",
+        "selectCurrency": "Select a currency",
+        "selectedCurrency": "Selected currency",
+        "address": "Enter your account address",
+        "hint": "NOT your passphrase!",
+        "success": "Account(s) added successfully.",
+        "addToken": "Add Token/Contract Address",
+        "tokenAddress": "Token/Contract Address",
+        "tokenDecimals": "Decimals",
+        "isEthValidator": "ETH 2.0 Validator (index or pubkey)"
+      },
+      "createAccount": {
+        "createAccount": "Create account",
+        "enterPin": "Enter a PIN",
+        "enterPinHint": "Enter a PIN to secure this account. The PIN is used to verify actions made with your account.",
+        "generateSeed": "Generate seed",
+        "generatedPercent": "Generated: {{percent}}%",
+        "howToGenerate": "Move your finger across the area to create a random seed.",
+        "notePassphrase": "Note passphrase",
+        "notePassphraseHint": "Note down your passphrase. The passphrase is the master key to your account. Therefore, keep your passphrase always safe and private!",
+        "notePassphraseHint2": "We don't store passphrase even on your device, so we can't recover access to account. Note it!",
+        "pinPlaceholder": "PIN",
+        "step": "Step {{step}}/4",
+        "title": "Create account"
+      },
+      "importAccount": {
+        "activeAccount": "Active account",
+        "activeAccountHint": "Active accounts are used for making BURST transactions. Requires user generate a passphrase or provide one. Requires a user create a PIN for transactions. The passphrase is only used once locally to encrypt your private key; it is not stored anywhere.",
+        "import": "Import",
+        "passiveAccountHint": "Passive accounts are useful if you know a BURST address, but don't intend on making any transactions. Adds increased security. Can be converted to an active account at any time.",
+        "title": "Import account",
+        "showPassphrase": "Show passphrase"
+      }
+    }
+  },
+  "home": {
+    "screens": {
+      "welcome": {
+        "zeroBalance": "Zero Balance",
+        "emptyAddresses": "Your addresses appear to be empty",
+        "grossBalance": "Gross Balance"
+      }
+    }
+  },
+  "core": {
+    "actions": {
+      "add": "Add",
+      "cancel": "Cancel",
+      "create": "Create",
+      "next": "Next",
+      "ok": "OK",
+      "save": "Save",
+      "back": "Back",
+      "submit": "Submit"
+    },
+    "currency": {
+      "BTC": {
+        "name": "BTC",
+        "value": "₿ {{value}}"
+      },
+      "BURST": {
+        "name": "BURST",
+        "value": "Ƀ {{value}}"
+      },
+      "USD": {
+        "name": "USD",
+        "value": "${{value}}"
+      },
+      "available": "{{x}} of {{y}} available"
+    },
+    "layout": {
+      "preventBackButton": {
+        "alertMessage": "Information will be lost",
+        "alertTitle": "Are you sure?"
+      }
+    },
+    "screens": {
+      "home": {
+        "accountsList": "Accounts List",
+        "recentTransactions": "Recent Transactions",
+        "title": "Addresses",
+        "allAccounts": "Addresses"
+      },
+      "loading": {
+        "loadingText": "Loading..."
+      }
+    }
+  },
+  "models": {
+    "account": {
+      "address": "Address",
+      "id": "ID",
+      "passphrase": "Passphrase",
+      "pin": "PIN",
+      "title": "Account"
+    }
+  },
+  "transactions": {
+    "screens": {
+      "receive": {
+        "title": "Receive",
+        "recipient": "Recipient",
+        "generate": "Generate QR Code",
+        "immutable": "Immutable"
+      },
+      "send": {
+        "amountNQT": "Amount",
+        "feeNQT": "Fee",
+        "from": "From",
+        "selectAccount": "Select an account",
+        "sent": "Sent!",
+        "title": "Send",
+        "button": "Swipe to Send",
+        "to": "To",
+        "total": "Total: Ƀ {{value}}",
+        "noPublicKey": "Please confirm address before sending.",
+        "invalidAddress": "This address is not valid.",
+        "zilOutage": "Unable to fetch from the ZIL API.",
+        "success": "Successfully sent {{amount}} BURST to {{address}}.",
+        "failure": "Failed to send BURST. Please check your entries and try again."
+      },
+      "scan": {
+        "title": "Scan QR Code"
+      }
+    }
+  },
+  "settings": {
+    "screens": {
+      "settings": {
+        "title": "Settings",
+        "erase": "Erase all accounts and reset PIN",
+        "confirmReset": "Are you sure? You cannot undo this action.",
+        "confirmErase": "Confirm - Erase and Reset",
+        "changeLanguage": "Select Language",
+        "copyright": "Copyright © Examp, LLC",
+        "getSupport": "Get Support",
+        "appMustRestart": "App must be restarted",
+        "restartNow": "Restart Now",
+        "general": "General",
+        "about": "About",
+        "terms": "Terms and Conditions",
+        "privacy": "Privacy Policy",
+        "manageSubscription": "Manage Subscription",
+        "restoreSubscription": "Restore Subscription",
+        "attributions": "Attributions"
+      }
+    }
+  }
+}

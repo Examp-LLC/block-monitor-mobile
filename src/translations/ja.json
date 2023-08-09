@@ -1,0 +1,244 @@
+{
+  "auth": {
+    "errors": {
+      "accountExist": "アカウントはすでにインポートされています",
+      "serverErrorAddingAccount": "サーバーエラー：アカウントが追加されていません。",
+      "incorrectAddress": "不適切なバーストアドレス",
+      "incorrectPasscode": "不正なパスコード",
+      "incorrectPassphrase": "正しくないパスフレーズ",
+      "insecurePin": "安全でないPIN、推奨{{length}}文字以上",
+      "noUnstoppableAddressesFound": "サポートされているアドレスが見つかりません。",
+      "serverErrorSavingReceipt": "サーバーエラー：領収書を保存できません。",
+      "missingDeviceToken": "このアプリを使用するには、プッシュ通知を有効にする必要があります。アンインストールして再インストールし、プッシュ通知を受け入れてください。",
+      "serverErrorFetchingReceipts": "サーバーエラー：領収書を取得できません。"
+    },
+    "modals": {
+      "enterPasscode": {
+        "passcodeHint": "パスコードを入力してください",
+        "forgotPin": "PINを忘れましたか？",
+        "confirmReset": "すべてのアカウントを削除してPINをリセットしますか？",
+        "welcomeBack": "お帰りなさい"
+      },
+      "setPasscode": {
+        "enterAgain": "パスコードをもう一度入力してください",
+        "passcodeHint": "デバイスを保護するためにパスコードを設定してください"
+      },
+      "currencyList": {
+        "coinbaseHint": "Coinbaseにこれらのいずれかがある場合、BlockMonitorはそれらを監視できます。",
+        "fullySupported": "完全にサポートされているブロックチェーン",
+        "header": "サポートされている通貨",
+        "supportedViaCoinbase": "Coinbase経由でサポート"
+      },
+      "purchase": {
+        "equation": "{{max}}アドレスx {{total}}通貨",
+        "goBack": "戻る",
+        "hint1": "いつでもキャンセル",
+        "hint2": "10％割引",
+        "hint3": "20％割引",
+        "monthly": "毎月-{{price}}",
+        "notReadyYet": "まだ準備ができていませんか？",
+        "sixMonths": "6か月-{{price}}",
+        "tryFree": "アクティブモニタリングのロックを解除するには、アップグレードしてください",
+        "viewCurrencyList": "通貨リストを見る",
+        "watchUpTo": "最大{{max}}アドレスを監視する",
+        "yearly": "毎年-{{price}}"
+      }
+    },
+    "passcode": {
+      "passcode": "パスコード"
+    },
+    "screens": {
+      "accounts": {
+        "addAccount": "アカウントを追加する",
+        "createAccount": "アカウントを作成する",
+        "noAccounts": {
+          "hint": "開始するには、アカウントを追加してください。",
+          "title": "ようこそ"
+        },
+        "title": "アカウント"
+      },
+      "accountDetails": {
+        "noTransactions": {
+          "title": "取引なし"
+        },
+        "copiedSuccessfully": "アドレスが正常にコピーされました。",
+        "copy": "コピーする"
+      },
+      "addAccount": {
+        "createAccount": "アカウントを作成する",
+        "title": "アカウントを追加する",
+        "selectCurrency": "通貨を選択",
+        "selectedCurrency": "選択した通貨",
+        "address": "アカウントのアドレスを入力してください",
+        "hint": "パスフレーズではありません！",
+        "success": "アカウントが正常に追加されました。",
+        "addToken": "トークン/契約アドレスを追加しますか？",
+        "tokenAddress": "トークン/契約アドレス",
+        "tokenDecimals": "小数",
+        "isEthValidator": "ETH 2.0バリデーター（インデックスまたはpubkey）"
+      },
+      "createAccount": {
+        "createAccount": "アカウントを作成する",
+        "enterPin": "PINを入力してください",
+        "enterPinHint": "このアカウントを保護するにはPINを入力してください。 PINは、アカウントで行われたアクションを確認するために使用されます。",
+        "generateSeed": "シードを生成する",
+        "generatedPercent": "生成：{{percent}}％",
+        "howToGenerate": "ランダムなシードを作成するには、領域全体で指を動かします。",
+        "notePassphrase": "パスフレーズをメモする",
+        "notePassphraseHint": "パスフレーズを書き留めます。パスフレーズは、アカウントのマスターキーです。したがって、パスフレーズは常に安全かつ非公開にしてください。",
+        "notePassphraseHint2": "お使いのデバイスにもパスフレーズは保存されないため、アカウントへのアクセスを回復することはできません。注意してください！",
+        "pinPlaceholder": "ピン",
+        "step": "ステップ{{step}} / 4",
+        "title": "アカウントを作成する"
+      },
+      "importAccount": {
+        "activeAccount": "アクティブなアカウント",
+        "activeAccountHint": "アクティブなアカウントは、バーストトランザクションを作成するために使用されます。ユーザーがパスフレーズを生成するか、提供する必要があります。ユーザーがトランザクション用のPINを作成する必要があります。パスフレーズは、秘密鍵を暗号化するためにローカルで1回だけ使用されます。どこにも保存されません。",
+        "import": "インポート",
+        "passiveAccountHint": "パッシブアカウントは、バーストアドレスがわかっていて、トランザクションを行うつもりがない場合に役立ちます。セキュリティを強化します。いつでもアクティブなアカウントに変換できます。",
+        "title": "アカウントをインポート",
+        "showPassphrase": "パスフレーズを表示"
+      },
+      "notificationConfig": {
+        "header": "通知のトリガー：",
+        "option0": "バランスの増加",
+        "option1": "残高の減少",
+        "option2": "両方",
+        "option3": "一度もない",
+        "successBody": "設定が保存されています。",
+        "successHeader": "設定が更新されました"
+      }
+    }
+  },
+  "core": {
+    "actions": {
+      "add": "追加",
+      "cancel": "キャンセル",
+      "create": "作成する",
+      "next": "次",
+      "ok": "OK",
+      "save": "保存する",
+      "back": "バック",
+      "submit": "参加する"
+    },
+    "currency": {
+      "BTC": {
+        "name": "BTC",
+        "value": "₿ {{value}}"
+      },
+      "BURST": {
+        "name": "BURST",
+        "value": "Ƀ {{value}}"
+      },
+      "USD": {
+        "name": "USD",
+        "value": "$ {{value}}"
+      },
+      "available": "{{y}}中{{x}}が利用可能"
+    },
+    "dates": {
+      "months": {
+        "short": {
+          "JAN": "ヤン",
+          "FEB": "2月",
+          "MAR": "3月",
+          "APR": "4月",
+          "MAY": "五月",
+          "JUN": "じゅん",
+          "JUL": "7月",
+          "AUG": "8月",
+          "SEP": "9月",
+          "OCT": "10月",
+          "NOV": "11月",
+          "DEC": "12月"
+        }
+      }
+    },
+    "layout": {
+      "preventBackButton": {
+        "alertMessage": "情報は失われます",
+        "alertTitle": "本気ですか？"
+      }
+    },
+    "screens": {
+      "home": {
+        "accountsList": "アカウントリスト",
+        "recentTransactions": "最近のトランザクション",
+        "title": "すべてのアカウント",
+        "allAccounts": "すべてのアカウント"
+      },
+      "loading": {
+        "loadingText": "読み込んでいます..."
+      }
+    }
+  },
+  "models": {
+    "account": {
+      "address": "住所",
+      "id": "ID",
+      "passphrase": "パスフレーズ",
+      "pin": "ピン",
+      "title": "アカウント"
+    }
+  },
+  "transactions": {
+    "screens": {
+      "receive": {
+        "title": "受け取る",
+        "recipient": "受取人",
+        "generate": "QRコードを生成",
+        "immutable": "不変"
+      },
+      "send": {
+        "amountNQT": "量",
+        "feeNQT": "費用",
+        "from": "から",
+        "selectAccount": "アカウントを選択",
+        "sent": "送信しました！",
+        "title": "送る",
+        "button": "スワイプして送信",
+        "to": "に",
+        "total": "合計：Ƀ{{値}}",
+        "noPublicKey": "送付前に住所をご確認ください。",
+        "invalidAddress": "このアドレスは無効です。",
+        "zilOutage": "ZIL APIからフェッチできません。",
+        "success": "{{amount}}バーストを{{アドレス}}に送信しました。",
+        "failure": "バーストを送信できませんでした。入力内容を確認して、もう一度お試しください。"
+      },
+      "scan": {
+        "title": "バーストQRコードをスキャン"
+      }
+    }
+  },
+  "settings": {
+    "screens": {
+      "settings": {
+        "title": "設定",
+        "erase": "すべてのアカウントを消去してPINをリセット",
+        "confirmReset": "本気ですか？この操作は元に戻せません。",
+        "confirmErase": "確認-消去してリセット",
+        "changeLanguage": "言語を選択する",
+        "copyright": "Copyright©ブランキー",
+        "getSupport": "支持を得ます",
+        "appMustRestart": "アプリを再起動する必要があります",
+        "restartNow": "今すぐ再起動",
+        "about": "約",
+        "attributions": "帰属",
+        "manageSubscription": "サブスクリプションを管理する",
+        "privacy": "個人情報保護方針",
+        "terms": "規約と条件",
+        "restoreSubscription": "サブスクリプションの復元",
+        "general": "全般的"
+      }
+    }
+  },
+  "home": {
+    "screens": {
+      "welcome": {
+        "emptyAddresses": "あなたのアドレスは空のようです",
+        "zeroBalance": "ゼロバランス",
+        "grossBalance": "グロスバランス"
+      }
+    }
+  }
+}

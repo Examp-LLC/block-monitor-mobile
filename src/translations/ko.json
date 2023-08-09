@@ -1,0 +1,244 @@
+{
+  "auth": {
+    "errors": {
+      "accountExist": "이미 가져온 계정",
+      "serverErrorAddingAccount": "서버 오류 : 계정이 추가되지 않았습니다.",
+      "incorrectAddress": "잘못된 버스트 주소",
+      "incorrectPasscode": "잘못된 비밀번호",
+      "incorrectPassphrase": "잘못된 비밀번호 문구",
+      "insecurePin": "안전하지 않은 PIN, 권장되는 {{length}} 자 이상",
+      "noUnstoppableAddressesFound": "지원되는 주소가 없습니다.",
+      "serverErrorSavingReceipt": "서버 오류 : 영수증을 저장할 수 없습니다.",
+      "missingDeviceToken": "이 앱을 사용하려면 푸시 알림을 활성화해야합니다. 제거하고 다시 설치하고 푸시 알림을 수락하십시오.",
+      "serverErrorFetchingReceipts": "서버 오류 : 영수증을 가져올 수 없습니다."
+    },
+    "modals": {
+      "enterPasscode": {
+        "passcodeHint": "비밀번호 입력",
+        "forgotPin": "PIN을 잊어 버리셨습니까?",
+        "confirmReset": "모든 계정을 제거하고 PIN을 재설정 하시겠습니까?",
+        "welcomeBack": "다시 오신 것을 환영합니다"
+      },
+      "setPasscode": {
+        "enterAgain": "비밀번호를 다시 입력하십시오",
+        "passcodeHint": "장치를 보호하기 위해 암호를 설정하십시오"
+      },
+      "currencyList": {
+        "coinbaseHint": "Coinbase에 이러한 항목이 있으면 Block Monitor에서 모니터링 할 수 있습니다.",
+        "fullySupported": "완전히 지원되는 블록 체인",
+        "header": "지원되는 통화",
+        "supportedViaCoinbase": "Coinbase를 통해 지원"
+      },
+      "purchase": {
+        "equation": "{{max}} 주소 x {{total}} 통화",
+        "goBack": "돌아 가기",
+        "hint1": "언제든지 취소",
+        "hint2": "10% 할인",
+        "hint3": "20 % 절약",
+        "monthly": "매월-{{price}}",
+        "notReadyYet": "아직 준비되지 않았습니까?",
+        "sixMonths": "6 개월-{{price}}",
+        "tryFree": "활성 모니터링을 잠금 해제하려면 업그레이드하세요.",
+        "viewCurrencyList": "통화 목록보기",
+        "watchUpTo": "최대 {{max}} 개 주소 감시",
+        "yearly": "매년-{{price}}"
+      }
+    },
+    "passcode": {
+      "passcode": "비밀번호"
+    },
+    "screens": {
+      "accounts": {
+        "addAccount": "계정을 추가",
+        "createAccount": "계정 만들기",
+        "noAccounts": {
+          "hint": "시작하려면 계정을 추가하십시오.",
+          "title": "어서 오십시오"
+        },
+        "title": "계정"
+      },
+      "accountDetails": {
+        "noTransactions": {
+          "title": "거래 없음"
+        },
+        "copiedSuccessfully": "주소가 성공적으로 복사되었습니다.",
+        "copy": "부"
+      },
+      "addAccount": {
+        "createAccount": "계정 만들기",
+        "title": "계정을 추가",
+        "selectCurrency": "통화를 선택하십시오",
+        "selectedCurrency": "선택된 통화",
+        "address": "계정 주소를 입력하십시오",
+        "hint": "암호가 아닙니다!",
+        "success": "계정이 성공적으로 추가되었습니다.",
+        "addToken": "토큰 / 계약 주소를 추가 하시겠습니까?",
+        "tokenAddress": "토큰 / 계약 주소",
+        "tokenDecimals": "소수점",
+        "isEthValidator": "ETH 2.0 유효성 검사기 (인덱스 또는 pubkey)"
+      },
+      "createAccount": {
+        "createAccount": "계정 만들기",
+        "enterPin": "PIN을 입력하십시오",
+        "enterPinHint": "이 계정을 보호하려면 PIN을 입력하십시오. PIN은 계정에서 수행 한 작업을 확인하는 데 사용됩니다.",
+        "generateSeed": "시드 생성",
+        "generatedPercent": "생성 : {{percent}} %",
+        "howToGenerate": "무작위 종자를 만들기 위해 손가락을 해당 영역을 가로 질러 움직입니다.",
+        "notePassphrase": "비밀번호 문구 참고",
+        "notePassphraseHint": "암호를 적어 두십시오. 암호는 계정의 마스터 키입니다. 따라서 암호를 항상 안전하게 유지하십시오!",
+        "notePassphraseHint2": "우리는 귀하의 장치에도 암호를 저장하지 않으므로 계정에 대한 액세스를 복구 할 수 없습니다. 참고하십시오!",
+        "pinPlaceholder": "핀",
+        "step": "{{step}} / 4 단계",
+        "title": "계정 만들기"
+      },
+      "importAccount": {
+        "activeAccount": "활성 계정",
+        "activeAccountHint": "활성 계정은 BURST 거래에 사용됩니다. 사용자가 암호를 생성하거나 제공해야합니다. 사용자가 거래를 위해 PIN을 작성해야합니다. 암호는 개인 키를 암호화하기 위해 로컬에서 한 번만 사용됩니다. 어디에도 저장되지 않습니다.",
+        "import": "수입",
+        "passiveAccountHint": "수동 계정은 버스트 주소를 알고 있지만 거래하려는 의도가없는 경우에 유용합니다. 보안 강화. 언제든지 활성 계정으로 전환 할 수 있습니다.",
+        "title": "계정 가져 오기",
+        "showPassphrase": "비밀번호 문구 표시"
+      },
+      "notificationConfig": {
+        "header": "다음에 의해 트리거된 알림:",
+        "option0": "잔액 증가",
+        "option1": "잔액 감소",
+        "option2": "둘 다",
+        "option3": "절대",
+        "successBody": "설정이 저장되었습니다.",
+        "successHeader": "설정 업데이트됨"
+      }
+    }
+  },
+  "core": {
+    "actions": {
+      "add": "더하다",
+      "cancel": "취소",
+      "create": "창조하다",
+      "next": "다음",
+      "ok": "확인",
+      "save": "저장",
+      "back": "뒤",
+      "submit": "제출"
+    },
+    "currency": {
+      "BTC": {
+        "name": "BTC",
+        "value": "₿ {{value}}"
+      },
+      "BURST": {
+        "name": "BURST",
+        "value": "Ƀ {{value}}"
+      },
+      "USD": {
+        "name": "USD",
+        "value": "$ {{value}}"
+      },
+      "available": "{{y}} 중 {{x}} 개 이용 가능"
+    },
+    "dates": {
+      "months": {
+        "short": {
+          "JAN": "얀",
+          "FEB": "2 월",
+          "MAR": "망치다",
+          "APR": "4 월",
+          "MAY": "할 수있다",
+          "JUN": "준",
+          "JUL": "7 월",
+          "AUG": "8 월",
+          "SEP": "9 월",
+          "OCT": "10 월",
+          "NOV": "11 월",
+          "DEC": "12 월"
+        }
+      }
+    },
+    "layout": {
+      "preventBackButton": {
+        "alertMessage": "정보가 손실됩니다",
+        "alertTitle": "확실해?"
+      }
+    },
+    "screens": {
+      "home": {
+        "accountsList": "계정 목록",
+        "recentTransactions": "최근 거래",
+        "title": "모든 계정",
+        "allAccounts": "모든 계정"
+      },
+      "loading": {
+        "loadingText": "불러오는 중 ..."
+      }
+    }
+  },
+  "models": {
+    "account": {
+      "address": "주소",
+      "id": "ID",
+      "passphrase": "암호",
+      "pin": "핀",
+      "title": "계정"
+    }
+  },
+  "transactions": {
+    "screens": {
+      "receive": {
+        "title": "받다",
+        "recipient": "받는 사람",
+        "generate": "QR 코드 생성",
+        "immutable": "불변"
+      },
+      "send": {
+        "amountNQT": "양",
+        "feeNQT": "회비",
+        "from": "에서",
+        "selectAccount": "계정을 선택하십시오",
+        "sent": "보냈습니다!",
+        "title": "보내다",
+        "button": "스 와이프하여 전송",
+        "to": "에",
+        "total": "합계 : Ƀ {{value}}",
+        "noPublicKey": "보내기 전에 주소를 확인하십시오.",
+        "invalidAddress": "이 주소는 유효하지 않습니다.",
+        "zilOutage": "ZIL API에서 가져올 수 없습니다.",
+        "success": "{{amount}} BURST를 {{address}} (으)로 보냈습니다.",
+        "failure": "BURST를 보내지 못했습니다. 입력 내용을 확인한 후 다시 시도하십시오."
+      },
+      "scan": {
+        "title": "버스트 QR 코드 스캔"
+      }
+    }
+  },
+  "settings": {
+    "screens": {
+      "settings": {
+        "title": "설정",
+        "erase": "모든 계정을 지우고 PIN을 재설정",
+        "confirmReset": "확실해? 이 작업은 취소 할 수 없습니다.",
+        "confirmErase": "확인-지우기 및 재설정",
+        "changeLanguage": "언어를 선택하십시오",
+        "copyright": "저작권 © Examp, LLC",
+        "getSupport": "지원을 받다",
+        "appMustRestart": "앱을 다시 시작해야합니다",
+        "restartNow": "지금 다시 시작",
+        "about": "약",
+        "attributions": "기여",
+        "manageSubscription": "구독 관리",
+        "privacy": "개인 정보 정책",
+        "terms": "이용 약관",
+        "restoreSubscription": "구독 복원",
+        "general": "일반적인"
+      }
+    }
+  },
+  "home": {
+    "screens": {
+      "welcome": {
+        "emptyAddresses": "주소가 비어있는 것 같습니다",
+        "zeroBalance": "제로 밸런스",
+        "grossBalance": "총 잔액"
+      }
+    }
+  }
+}

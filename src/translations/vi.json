@@ -1,0 +1,244 @@
+{
+  "auth": {
+    "errors": {
+      "accountExist": "Tài khoản đã được nhập",
+      "serverErrorAddingAccount": "Lỗi máy chủ: Tài khoản chưa được thêm.",
+      "incorrectAddress": "Địa chỉ BURST không chính xác",
+      "incorrectPasscode": "Mật mã không chính xác",
+      "incorrectPassphrase": "Cụm mật khẩu không chính xác",
+      "insecurePin": "PIN không an toàn, được đề xuất {{length}} tối thiểu ký tự",
+      "noUnstoppableAddressesFound": "Không tìm thấy địa chỉ được hỗ trợ.",
+      "serverErrorSavingReceipt": "Lỗi máy chủ: Không thể lưu biên lai.",
+      "missingDeviceToken": "Thông báo đẩy phải được bật để sử dụng ứng dụng này. Vui lòng gỡ cài đặt và cài đặt lại, đồng thời chấp nhận thông báo đẩy.",
+      "serverErrorFetchingReceipts": "Lỗi máy chủ: Không thể tìm nạp biên nhận."
+    },
+    "modals": {
+      "enterPasscode": {
+        "passcodeHint": "Nhập mật mã",
+        "forgotPin": "Quên mã PIN?",
+        "confirmReset": "Xóa tất cả tài khoản và đặt lại mã PIN?",
+        "welcomeBack": "Chào mừng trở lại"
+      },
+      "setPasscode": {
+        "enterAgain": "Nhập lại mật mã",
+        "passcodeHint": "Vui lòng đặt mật mã để bảo mật thiết bị của bạn"
+      },
+      "currencyList": {
+        "coinbaseHint": "Nếu bạn có bất kỳ thứ nào trong số này trong Coinbase, Block Monitor có thể giám sát chúng.",
+        "fullySupported": "Các blockchains được hỗ trợ đầy đủ",
+        "header": "Các loại tiền được hỗ trợ",
+        "supportedViaCoinbase": "Được hỗ trợ qua Coinbase"
+      },
+      "purchase": {
+        "equation": "{{max}} (các) địa chỉ x {{total}} đơn vị tiền tệ",
+        "goBack": "Quay lại",
+        "hint1": "Hủy bất cứ lúc nào",
+        "hint2": "Tiết kiệm 10%",
+        "hint3": "Tiết kiệm 20%",
+        "monthly": "Giá hàng tháng}}",
+        "notReadyYet": "Chưa sẵn sàng?",
+        "sixMonths": "6 tháng - {{price}}",
+        "tryFree": "Vui lòng nâng cấp để mở khóa giám sát đang hoạt động",
+        "viewCurrencyList": "Xem danh sách tiền tệ",
+        "watchUpTo": "Xem đến {{max}} địa chỉ",
+        "yearly": "Hàng năm - {{price}}"
+      }
+    },
+    "passcode": {
+      "passcode": "Mật mã"
+    },
+    "screens": {
+      "accounts": {
+        "addAccount": "Thêm tài khoản",
+        "createAccount": "Tạo tài khoản",
+        "noAccounts": {
+          "hint": "Vui lòng thêm một tài khoản để bắt đầu.",
+          "title": "Chào mừng bạn"
+        },
+        "title": "Tài khoản"
+      },
+      "accountDetails": {
+        "noTransactions": {
+          "title": "Không có giao dịch"
+        },
+        "copiedSuccessfully": "Địa chỉ sao chép thành công.",
+        "copy": "Sao chép"
+      },
+      "addAccount": {
+        "createAccount": "Tạo tài khoản",
+        "title": "Thêm tài khoản",
+        "selectCurrency": "Chọn tiền tệ",
+        "selectedCurrency": "Tiền tệ được chọn",
+        "address": "Nhập địa chỉ tài khoản của bạn",
+        "hint": "KHÔNG phải mật khẩu của bạn!",
+        "success": "Tài khoản được thêm thành công.",
+        "addToken": "Thêm mã thông báo / địa chỉ hợp đồng?",
+        "tokenAddress": "Địa chỉ Token / Hợp đồng",
+        "tokenDecimals": "Số thập phân",
+        "isEthValidator": "ETH 2.0 Validator (chỉ mục hoặc pubkey)"
+      },
+      "createAccount": {
+        "createAccount": "Tạo tài khoản",
+        "enterPin": "Nhập mã PIN",
+        "enterPinHint": "Nhập mã PIN để bảo mật tài khoản này. Mã PIN được sử dụng để xác minh các hành động được thực hiện với tài khoản của bạn.",
+        "generateSeed": "Tạo hạt giống",
+        "generatedPercent": "Đã tạo: {{phần trăm}}%",
+        "howToGenerate": "Di chuyển ngón tay của bạn trên khu vực để tạo ra một hạt giống ngẫu nhiên.",
+        "notePassphrase": "Lưu ý cụm mật khẩu",
+        "notePassphraseHint": "Ghi lại cụm mật khẩu của bạn. Cụm mật khẩu là khóa chính cho tài khoản của bạn. Do đó, hãy giữ mật khẩu của bạn luôn an toàn và riêng tư!",
+        "notePassphraseHint2": "Chúng tôi không lưu trữ cụm mật khẩu ngay cả trên thiết bị của bạn, vì vậy chúng tôi không thể khôi phục quyền truy cập vào tài khoản. Lưu ý nó!",
+        "pinPlaceholder": "GHIM",
+        "step": "Bước {{bước}} / 4",
+        "title": "Tạo tài khoản"
+      },
+      "importAccount": {
+        "activeAccount": "Tài khoản đang hoạt động",
+        "activeAccountHint": "Tài khoản đang hoạt động được sử dụng để thực hiện các giao dịch BURST. Yêu cầu người dùng tạo cụm mật khẩu hoặc cung cấp một cụm từ. Yêu cầu người dùng tạo mã PIN cho các giao dịch. Cụm mật khẩu chỉ được sử dụng một lần cục bộ để mã hóa khóa riêng của bạn; nó không được lưu trữ ở bất cứ đâu",
+        "import": "Nhập khẩu",
+        "passiveAccountHint": "Tài khoản thụ động rất hữu ích nếu bạn biết địa chỉ BURST, nhưng không có ý định thực hiện bất kỳ giao dịch nào. Thêm bảo mật tăng. Có thể được chuyển đổi thành một tài khoản hoạt động bất cứ lúc nào.",
+        "title": "Nhập tài khoản",
+        "showPassphrase": "Hiển thị cụm mật khẩu"
+      },
+      "notificationConfig": {
+        "header": "Thông báo được kích hoạt bởi:",
+        "option0": "Tăng số dư",
+        "option1": "Giảm số dư",
+        "option2": "Cả hai",
+        "option3": "Không bao giờ",
+        "successBody": "Cài đặt của bạn đã được lưu.",
+        "successHeader": "Cài đặt đã cập nhật"
+      }
+    }
+  },
+  "core": {
+    "actions": {
+      "add": "Thêm vào",
+      "cancel": "Hủy bỏ",
+      "create": "Tạo nên",
+      "next": "Kế tiếp",
+      "ok": "đồng ý",
+      "save": "Tiết kiệm",
+      "back": "Trở lại",
+      "submit": "Gửi đi"
+    },
+    "currency": {
+      "BTC": {
+        "name": "BTC",
+        "value": "₿ {{value}}"
+      },
+      "BURST": {
+        "name": "BURST",
+        "value": "Ƀ {{value}}"
+      },
+      "USD": {
+        "name": "USD",
+        "value": "$ {{value}}"
+      },
+      "available": "{{x}} trong số {{y}} khả dụng"
+    },
+    "dates": {
+      "months": {
+        "short": {
+          "JAN": "tháng một",
+          "FEB": "Tháng hai",
+          "MAR": "Tháng ba",
+          "APR": "Tháng Tư",
+          "MAY": "có thể",
+          "JUN": "Tháng sáu",
+          "JUL": "Tháng 7",
+          "AUG": "Tháng tám",
+          "SEP": "Tháng chín",
+          "OCT": "Tháng 10",
+          "NOV": "Tháng 11",
+          "DEC": "Tháng 12"
+        }
+      }
+    },
+    "layout": {
+      "preventBackButton": {
+        "alertMessage": "Thông tin sẽ bị mất",
+        "alertTitle": "Bạn có chắc không?"
+      }
+    },
+    "screens": {
+      "home": {
+        "accountsList": "Danh sách tài khoản",
+        "recentTransactions": "Giao dịch gần đây",
+        "title": "Tất cả các tài khoản",
+        "allAccounts": "Tất cả các tài khoản"
+      },
+      "loading": {
+        "loadingText": "Đang tải..."
+      }
+    }
+  },
+  "models": {
+    "account": {
+      "address": "Địa chỉ nhà",
+      "id": "TÔI",
+      "passphrase": "Cụm mật khẩu",
+      "pin": "GHIM",
+      "title": "Tài khoản"
+    }
+  },
+  "transactions": {
+    "screens": {
+      "receive": {
+        "title": "Nhận được",
+        "recipient": "Người nhận",
+        "generate": "Tạo mã QR",
+        "immutable": "Bất biến"
+      },
+      "send": {
+        "amountNQT": "Số tiền",
+        "feeNQT": "Học phí",
+        "from": "Từ",
+        "selectAccount": "Chọn một tài khoản",
+        "sent": "Gởi!",
+        "title": "Gửi",
+        "button": "Vuốt để gửi",
+        "to": "Đến",
+        "total": "Tổng cộng: {{giá trị}}",
+        "noPublicKey": "Vui lòng xác nhận địa chỉ trước khi gửi.",
+        "invalidAddress": "Địa chỉ này không hợp lệ.",
+        "zilOutage": "Không thể tìm nạp từ API ZIL.",
+        "success": "Đã gửi thành công {{lượng}} BURST tới {{địa chỉ}}.",
+        "failure": "Không thể gửi BURST. Vui lòng kiểm tra các mục của bạn và thử lại."
+      },
+      "scan": {
+        "title": "Quét mã QR BURST"
+      }
+    }
+  },
+  "settings": {
+    "screens": {
+      "settings": {
+        "title": "Cài đặt",
+        "erase": "Xóa tất cả tài khoản và đặt lại mã PIN",
+        "confirmReset": "Bạn có chắc không? Bạn không thể hoàn tác hành động này.",
+        "confirmErase": "Xác nhận - Xóa và đặt lại",
+        "changeLanguage": "Chọn ngôn ngữ",
+        "copyright": "Bản quyền © Examp, LLC",
+        "getSupport": "Nhận hỗ trợ",
+        "appMustRestart": "Ứng dụng phải được khởi động lại",
+        "restartNow": "Khởi động lại ngay",
+        "about": "Trong khoảng",
+        "attributions": "Phân phối",
+        "manageSubscription": "Quản lý thuê bao",
+        "privacy": "Chính sách bảo mật",
+        "terms": "Các điều khoản và điều kiện",
+        "restoreSubscription": "Khôi phục đăng ký",
+        "general": "Tổng quan"
+      }
+    }
+  },
+  "home": {
+    "screens": {
+      "welcome": {
+        "emptyAddresses": "Địa chỉ của bạn dường như trống",
+        "zeroBalance": "Số dư bằng không",
+        "grossBalance": "Tổng số dư"
+      }
+    }
+  }
+}

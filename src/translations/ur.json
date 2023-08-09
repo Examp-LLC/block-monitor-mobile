@@ -1,0 +1,244 @@
+{
+  "auth": {
+    "errors": {
+      "accountExist": "اکاؤنٹ پہلے ہی درآمد کیا گیا ہے",
+      "serverErrorAddingAccount": "سرور کی خرابی: اکاؤنٹ شامل نہیں کیا گیا۔",
+      "incorrectAddress": "غلط BUST ایڈریس",
+      "incorrectPasscode": "غلط پاس کوڈ",
+      "incorrectPassphrase": "غلط پاسفریز",
+      "insecurePin": "غیر محفوظ پن ، تجویز کردہ {{لمبائی}} کم سے کم حرف",
+      "noUnstoppableAddressesFound": "کوئی معاون پتے نہیں ملے۔",
+      "serverErrorSavingReceipt": "سرور کی خرابی: رسید بچانے میں ناکام۔",
+      "missingDeviceToken": "اس ایپ کو استعمال کرنے کیلئے پش اطلاعات کو فعال کرنا ضروری ہے۔ براہ کرم ان انسٹال کریں اور انسٹال کریں ، اور پش اطلاعات کو قبول کریں۔",
+      "serverErrorFetchingReceipts": "سرور میں خرابی: رسیدیں بازیافت کرنے سے قاصر۔"
+    },
+    "modals": {
+      "enterPasscode": {
+        "passcodeHint": "پاس کوڈ درج کریں",
+        "forgotPin": "پن بھول گئے؟",
+        "confirmReset": "سبھی اکاؤنٹس کو ہٹائیں اور پن کو ری سیٹ کریں؟",
+        "welcomeBack": "خوش آمدید"
+      },
+      "setPasscode": {
+        "enterAgain": "پاس کوڈ دوبارہ درج کریں",
+        "passcodeHint": "براہ کرم اپنے آلے کو محفوظ بنانے کے لئے ایک پاس کوڈ مرتب کریں"
+      },
+      "currencyList": {
+        "coinbaseHint": "اگر آپ کو کوئین بیس میں سے کچھ ہے تو ، بلاک مانیٹر ان کی نگرانی کرسکتا ہے۔",
+        "fullySupported": "مکمل طور پر حمایت کی گئی blockchains",
+        "header": "تائید شدہ کرنسی",
+        "supportedViaCoinbase": "Coinbase کے ذریعے کی حمایت کی"
+      },
+      "purchase": {
+        "equation": "{{max}} پتہ (ع) x {{total}} rencies کرنسیوں",
+        "goBack": "واپس جاو",
+        "hint1": "کسی بھی وقت منسوخ کریں۔",
+        "hint2": "10% بچائیں",
+        "hint3": "20٪ بچائیں",
+        "monthly": "ماہانہ - {{price}}",
+        "notReadyYet": "ابھی تیار نہیں ہے؟",
+        "sixMonths": "6 ماہ - {{price}}",
+        "tryFree": "براہ کرم فعال نگرانی کو غیر مقفل کرنے کے لیے اپ گریڈ کریں۔",
+        "viewCurrencyList": "کرنسی کی فہرست دیکھیں",
+        "watchUpTo": "{{max}} پتے دیکھیں",
+        "yearly": "سالانہ - {{price}}"
+      }
+    },
+    "passcode": {
+      "passcode": "پاس کوڈ"
+    },
+    "screens": {
+      "accounts": {
+        "addAccount": "اکاؤنٹ کا اضافہ",
+        "createAccount": "اکاؤنٹ بنائیں",
+        "noAccounts": {
+          "hint": "شروع کرنے کے لئے ایک اکاؤنٹ شامل کریں.",
+          "title": "خوش آمدید"
+        },
+        "title": "اکاؤنٹس"
+      },
+      "accountDetails": {
+        "noTransactions": {
+          "title": "کوئی لین دین نہیں ہے"
+        },
+        "copiedSuccessfully": "پتہ کامیابی کے ساتھ کاپی کیا گیا۔",
+        "copy": "کاپی"
+      },
+      "addAccount": {
+        "createAccount": "اکاؤنٹ بنائیں",
+        "title": "اکاؤنٹ کا اضافہ",
+        "selectCurrency": "کرنسی منتخب کریں",
+        "selectedCurrency": "منتخب کردہ کرنسی",
+        "address": "اپنے اکاؤنٹ کا پتہ درج کریں",
+        "hint": "آپ کا پاسفریز نہیں!",
+        "success": "اکاؤنٹ (کامیابی) کامیابی کے ساتھ شامل کیا گیا۔",
+        "addToken": "ٹوکن / معاہدہ کا پتہ شامل کریں؟",
+        "tokenAddress": "ٹوکن / معاہدہ کا پتہ",
+        "tokenDecimals": "اعشاریہ",
+        "isEthValidator": "ETH 2.0 توثیق کار (اشاریہ یا بلوکی)"
+      },
+      "createAccount": {
+        "createAccount": "اکاؤنٹ بنائیں",
+        "enterPin": "ایک پن درج کریں",
+        "enterPinHint": "اس اکاؤنٹ کو محفوظ بنانے کے لئے ایک PIN درج کریں۔ پن کا استعمال آپ کے اکاؤنٹ سے کی جانے والی کارروائیوں کی تصدیق کے لئے کیا جاتا ہے۔",
+        "generateSeed": "بیج تیار کریں",
+        "generatedPercent": "تیار: {{فیصد}}",
+        "howToGenerate": "بے ترتیب بیج بنانے کے لئے اپنی انگلی کو پورے علاقے میں منتقل کریں۔",
+        "notePassphrase": "نوٹ پاسفریز",
+        "notePassphraseHint": "اپنا پاسفریز نوٹ کریں۔ پاسفریز آپ کے اکاؤنٹ کی ماسٹر چابی ہے۔ لہذا ، اپنے پاسفریز کو ہمیشہ محفوظ اور نجی رکھیں!",
+        "notePassphraseHint2": "ہم آپ کے آلے پر بھی پاسفریز اسٹور نہیں کرتے ہیں ، لہذا ہم اکاؤنٹ تک رسائی حاصل نہیں کرسکتے ہیں۔ نوٹ!",
+        "pinPlaceholder": "پن",
+        "step": "مرحلہ {{مرحلہ} / 4",
+        "title": "اکاؤنٹ بنائیں"
+      },
+      "importAccount": {
+        "activeAccount": "فعال اکاؤنٹ",
+        "activeAccountHint": "متحرک اکاؤنٹس BURST لین دین کرنے میں استعمال ہوتے ہیں۔ صارف کو پاس ورڈ تیار کرنے یا ایک فراہم کرنے کی ضرورت ہے۔ لین دین کے ل user صارف کو ایک پن بنانے کی ضرورت ہے۔ پاسفریز صرف ایک بار مقامی طور پر آپ کی نجی کلید کو خفیہ کرنے کے لئے استعمال کیا جاتا ہے۔ یہ کہیں بھی محفوظ نہیں ہے۔",
+        "import": "درآمد کریں",
+        "passiveAccountHint": "غیر فعال اکاؤنٹس مفید ہیں اگر آپ کو برٹ پتہ معلوم ہوتا ہے ، لیکن کوئی لین دین کرنے کا ارادہ نہیں رکھتے ہیں۔ سیکیورٹی میں اضافہ کسی بھی وقت ایک فعال اکاؤنٹ میں تبدیل کیا جاسکتا ہے۔",
+        "title": "اکاؤنٹ درآمد کریں",
+        "showPassphrase": "پاسفریز دکھائیں"
+      },
+      "notificationConfig": {
+        "header": "نوٹیفکیشن کا محرک بذریعہ:",
+        "option0": "بیلنس میں اضافہ",
+        "option1": "توازن میں کمی",
+        "option2": "دونوں",
+        "option3": "کبھی نہیں",
+        "successBody": "آپ کی ترتیبات کو محفوظ کر دیا گیا ہے.",
+        "successHeader": "ترتیبات کو اپ ڈیٹ کر دیا گیا۔"
+      }
+    }
+  },
+  "core": {
+    "actions": {
+      "add": "شامل کریں",
+      "cancel": "منسوخ کریں",
+      "create": "بنانا",
+      "next": "اگلے",
+      "ok": "ٹھیک ہے",
+      "save": "محفوظ کریں",
+      "back": "پیچھے",
+      "submit": "جمع کرائیں"
+    },
+    "currency": {
+      "BTC": {
+        "name": "BTC",
+        "value": "₿ {{value}}"
+      },
+      "BURST": {
+        "name": "BURST",
+        "value": "Ƀ {{value}}"
+      },
+      "USD": {
+        "name": "USD",
+        "value": "$ {{value}}"
+      },
+      "available": "{{y}} کا {{x}} دستیاب ہے"
+    },
+    "dates": {
+      "months": {
+        "short": {
+          "JAN": "جان",
+          "FEB": "فروری",
+          "MAR": "مار",
+          "APR": "اپریل",
+          "MAY": "مئی",
+          "JUN": "جون",
+          "JUL": "جولائی",
+          "AUG": "اگست",
+          "SEP": "ستمبر",
+          "OCT": "اکتوبر",
+          "NOV": "نومبر",
+          "DEC": "دسمبر"
+        }
+      }
+    },
+    "layout": {
+      "preventBackButton": {
+        "alertMessage": "معلومات ختم ہوجائیں گی",
+        "alertTitle": "کیا تمہیں یقین ہے؟"
+      }
+    },
+    "screens": {
+      "home": {
+        "accountsList": "اکاؤنٹس کی فہرست",
+        "recentTransactions": "حالیہ لین دین",
+        "title": "تمام اکاؤنٹس",
+        "allAccounts": "تمام اکاؤنٹس"
+      },
+      "loading": {
+        "loadingText": "لوڈ ہو رہا ہے…"
+      }
+    }
+  },
+  "models": {
+    "account": {
+      "address": "پتہ",
+      "id": "ID",
+      "passphrase": "پاسفریز",
+      "pin": "پن",
+      "title": "کھاتہ"
+    }
+  },
+  "transactions": {
+    "screens": {
+      "receive": {
+        "title": "وصول کریں",
+        "recipient": "وصول کنندہ",
+        "generate": "کیو آر کوڈ بنائیں",
+        "immutable": "ناقابل تلافی"
+      },
+      "send": {
+        "amountNQT": "رقم",
+        "feeNQT": "فیس",
+        "from": "سے",
+        "selectAccount": "ایک اکاؤنٹ منتخب کریں",
+        "sent": "بھیج دیا گیا!",
+        "title": "بھیجیں",
+        "button": "بھیجنے کے لئے سوائپ کریں",
+        "to": "کرنا",
+        "total": "کل: Ƀ {{ویلیو}",
+        "noPublicKey": "براہ کرم بھیجنے سے پہلے ایڈریس کی تصدیق کریں۔",
+        "invalidAddress": "یہ پتہ درست نہیں ہے۔",
+        "zilOutage": "ZIL API سے بازیافت کرنے سے قاصر۔",
+        "success": "کامیابی کے ساتھ {{رقم} UR BURST کو {{ایڈریس} sent پر بھیج دیا گیا۔",
+        "failure": "BURST بھیجنے میں ناکام۔ براہ کرم اپنی اندراجات چیک کریں اور دوبارہ کوشش کریں۔"
+      },
+      "scan": {
+        "title": "برسٹ کیو آر کوڈ کو اسکین کریں"
+      }
+    }
+  },
+  "settings": {
+    "screens": {
+      "settings": {
+        "title": "ترتیبات",
+        "erase": "سبھی اکاؤنٹس مٹا دیں اور پن کو دوبارہ ترتیب دیں",
+        "confirmReset": "کیا تمہیں یقین ہے؟ آپ اس عمل کو کالعدم نہیں کرسکتے ہیں۔",
+        "confirmErase": "تصدیق کریں - مٹائیں اور دوبارہ ترتیب دیں",
+        "changeLanguage": "زبان منتخب کریں",
+        "copyright": "کاپی رائٹ n بلوکی",
+        "getSupport": "مدد حاصل کریں",
+        "appMustRestart": "ایپ کو دوبارہ شروع کرنا ہوگا",
+        "restartNow": "اب دوبارہ شروع",
+        "about": "کے بارے میں",
+        "attributions": "اوصاف",
+        "manageSubscription": "سب سکریپشن کا نظم کریں",
+        "privacy": "رازداری کی پالیسی",
+        "terms": "شرائط و ضوابط",
+        "restoreSubscription": "سبسکرپشن بحال کریں",
+        "general": "جنرل"
+      }
+    }
+  },
+  "home": {
+    "screens": {
+      "welcome": {
+        "emptyAddresses": "آپ کے پتے خالی معلوم ہوتے ہیں",
+        "zeroBalance": "زیرو بیلنس",
+        "grossBalance": "مجموعی بیلنس"
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+require_relative '../node_modules/react-native/scripts/react_native_pods'
+require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
+
+platform :ios, '12.0'
+
+target 'BlockMonitor' do
+
+  permissions_path = '../node_modules/react-native-permissions/ios'
+  pod 'Permission-Camera', :path => "#{permissions_path}/Camera.podspec"
+
+  config = use_native_modules!
+  use_react_native!(:path => config["reactNativePath"])
+
+  target 'BlockMonitorTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  use_native_modules!
+end
+
+target 'BlockMonitor-tvOS' do
+  # Pods for BlockMonitor-tvOS
+
+  target 'BlockMonitor-tvOSTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

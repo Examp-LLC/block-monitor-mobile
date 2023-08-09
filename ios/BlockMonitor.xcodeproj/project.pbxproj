@@ -1,0 +1,1198 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0053BB2E98405C2A3F7F583E /* libPods-BlockMonitor-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D1B6384A1A2324E16580FFA /* libPods-BlockMonitor-tvOS.a */; };
+		00E356F31AD99517003FC87E /* BlockMonitorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* BlockMonitorTests.m */; };
+		065B179627AC68C100ED5DC1 /* RobotoThin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 065B179327AC68C100ED5DC1 /* RobotoThin.ttf */; };
+		065B179727AC68C100ED5DC1 /* RobotoThin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 065B179327AC68C100ED5DC1 /* RobotoThin.ttf */; };
+		065B179827AC68C100ED5DC1 /* RobotoRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 065B179427AC68C100ED5DC1 /* RobotoRegular.ttf */; };
+		065B179927AC68C100ED5DC1 /* RobotoRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 065B179427AC68C100ED5DC1 /* RobotoRegular.ttf */; };
+		065B179A27AC68C100ED5DC1 /* RobotoBlack.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 065B179527AC68C100ED5DC1 /* RobotoBlack.ttf */; };
+		065B179B27AC68C100ED5DC1 /* RobotoBlack.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 065B179527AC68C100ED5DC1 /* RobotoBlack.ttf */; };
+		06A481C027AD0F2500229A4A /* libAppAuth.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 06A481BF27AD0F2500229A4A /* libAppAuth.a */; };
+		06A481DF27AD0FAE00229A4A /* libAppAuth.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 06A481C127AD0FAE00229A4A /* libAppAuth.a */; };
+		06A481E027AD0FAE00229A4A /* libPermission-Camera.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 06A481C227AD0FAE00229A4A /* libPermission-Camera.a */; };
+		06A481E127AD0FAE00229A4A /* libReact-Core.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 06A481C327AD0FAE00229A4A /* libReact-Core.a */; };
+		06A481E227AD0FAE00229A4A /* libReact-CoreModules.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 06A481C427AD0FAE00229A4A /* libReact-CoreModules.a */; };
+		06A481E327AD0FAE00229A4A /* libreact-native-app-auth.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 06A481C527AD0FAE00229A4A /* libreact-native-app-auth.a */; };
+		06A481E427AD0FAE00229A4A /* libreact-native-camera.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 06A481C627AD0FAE00229A4A /* libreact-native-camera.a */; };
+		06A481E527AD0FAE00229A4A /* libreact-native-notifications.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 06A481C727AD0FAE00229A4A /* libreact-native-notifications.a */; };
+		06A481E627AD0FAE00229A4A /* libreact-native-safe-area-context.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 06A481C827AD0FAE00229A4A /* libreact-native-safe-area-context.a */; };
+		06A481E727AD0FAE00229A4A /* libreact-native-version-number.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 06A481C927AD0FAE00229A4A /* libreact-native-version-number.a */; };
+		06A481E827AD0FAE00229A4A /* libReact-RCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 06A481CA27AD0FAE00229A4A /* libReact-RCTAnimation.a */; };
+		06A481E927AD0FAE00229A4A /* libReact-RCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 06A481CB27AD0FAE00229A4A /* libReact-RCTBlob.a */; };
+		06A481EA27AD0FAE00229A4A /* libReact-RCTImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 06A481CC27AD0FAE00229A4A /* libReact-RCTImage.a */; };
+		06A481EB27AD0FAE00229A4A /* libReact-RCTLinking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 06A481CD27AD0FAE00229A4A /* libReact-RCTLinking.a */; };
+		06A481EC27AD0FAE00229A4A /* libReact-RCTNetwork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 06A481CE27AD0FAE00229A4A /* libReact-RCTNetwork.a */; };
+		06A481ED27AD0FAE00229A4A /* libReact-RCTSettings.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 06A481CF27AD0FAE00229A4A /* libReact-RCTSettings.a */; };
+		06A481EE27AD0FAE00229A4A /* libReact-RCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 06A481D027AD0FAE00229A4A /* libReact-RCTText.a */; };
+		06A481EF27AD0FAE00229A4A /* libReactCommon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 06A481D127AD0FAE00229A4A /* libReactCommon.a */; };
+		06A481F027AD0FAE00229A4A /* libRNCAsyncStorage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 06A481D227AD0FAE00229A4A /* libRNCAsyncStorage.a */; };
+		06A481F127AD0FAE00229A4A /* libRNCCheckbox.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 06A481D327AD0FAE00229A4A /* libRNCCheckbox.a */; };
+		06A481F227AD0FAE00229A4A /* libRNCClipboard.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 06A481D427AD0FAE00229A4A /* libRNCClipboard.a */; };
+		06A481F327AD0FAE00229A4A /* libRNCPicker.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 06A481D527AD0FAE00229A4A /* libRNCPicker.a */; };
+		06A481F427AD0FAE00229A4A /* libRNGestureHandler.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 06A481D627AD0FAE00229A4A /* libRNGestureHandler.a */; };
+		06A481F527AD0FAE00229A4A /* libRNIap.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 06A481D727AD0FAE00229A4A /* libRNIap.a */; };
+		06A481F627AD0FAE00229A4A /* libRNKeychain.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 06A481D827AD0FAE00229A4A /* libRNKeychain.a */; };
+		06A481F727AD0FAE00229A4A /* libRNLocalize.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 06A481D927AD0FAE00229A4A /* libRNLocalize.a */; };
+		06A481F827AD0FAE00229A4A /* libRNPermissions.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 06A481DA27AD0FAE00229A4A /* libRNPermissions.a */; };
+		06A481F927AD0FAE00229A4A /* libRNReanimated.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 06A481DB27AD0FAE00229A4A /* libRNReanimated.a */; };
+		06A481FA27AD0FAE00229A4A /* libRNScreens.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 06A481DC27AD0FAE00229A4A /* libRNScreens.a */; };
+		06A481FB27AD0FAE00229A4A /* libRNSVG.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 06A481DD27AD0FAE00229A4A /* libRNSVG.a */; };
+		06A481FC27AD0FAF00229A4A /* libTouchID.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 06A481DE27AD0FAE00229A4A /* libTouchID.a */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		14012637CEB4674BA0C22EAD /* libPods-BlockMonitorTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA132C703152BD78489B13D7 /* libPods-BlockMonitorTests.a */; };
+		2856C1882483592D214A3404 /* libPods-BlockMonitor.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A70AC95F45CA9F217E5DEE97 /* libPods-BlockMonitor.a */; };
+		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		2DCD954D1E0B4F2C00145EB5 /* BlockMonitorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* BlockMonitorTests.m */; };
+		A2935B77F570D283E5850A92 /* libPods-BlockMonitor-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A37404ECC0297E5F845C344E /* libPods-BlockMonitor-tvOSTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = BlockMonitor;
+		};
+		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
+			remoteInfo = "BlockMonitor-tvOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
+		00E356EE1AD99517003FC87E /* BlockMonitorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlockMonitorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* BlockMonitorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockMonitorTests.m; sourceTree = "<group>"; };
+		061C29BA245899B2005866E1 /* BlockMonitor.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = BlockMonitor.entitlements; path = BlockMonitor/BlockMonitor.entitlements; sourceTree = "<group>"; };
+		065B179327AC68C100ED5DC1 /* RobotoThin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = RobotoThin.ttf; sourceTree = "<group>"; };
+		065B179427AC68C100ED5DC1 /* RobotoRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = RobotoRegular.ttf; sourceTree = "<group>"; };
+		065B179527AC68C100ED5DC1 /* RobotoBlack.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = RobotoBlack.ttf; sourceTree = "<group>"; };
+		06A481BF27AD0F2500229A4A /* libAppAuth.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libAppAuth.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		06A481C127AD0FAE00229A4A /* libAppAuth.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libAppAuth.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		06A481C227AD0FAE00229A4A /* libPermission-Camera.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libPermission-Camera.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		06A481C327AD0FAE00229A4A /* libReact-Core.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-Core.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		06A481C427AD0FAE00229A4A /* libReact-CoreModules.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-CoreModules.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		06A481C527AD0FAE00229A4A /* libreact-native-app-auth.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libreact-native-app-auth.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		06A481C627AD0FAE00229A4A /* libreact-native-camera.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libreact-native-camera.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		06A481C727AD0FAE00229A4A /* libreact-native-notifications.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libreact-native-notifications.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		06A481C827AD0FAE00229A4A /* libreact-native-safe-area-context.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libreact-native-safe-area-context.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		06A481C927AD0FAE00229A4A /* libreact-native-version-number.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libreact-native-version-number.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		06A481CA27AD0FAE00229A4A /* libReact-RCTAnimation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-RCTAnimation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		06A481CB27AD0FAE00229A4A /* libReact-RCTBlob.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-RCTBlob.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		06A481CC27AD0FAE00229A4A /* libReact-RCTImage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-RCTImage.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		06A481CD27AD0FAE00229A4A /* libReact-RCTLinking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-RCTLinking.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		06A481CE27AD0FAE00229A4A /* libReact-RCTNetwork.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-RCTNetwork.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		06A481CF27AD0FAE00229A4A /* libReact-RCTSettings.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-RCTSettings.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		06A481D027AD0FAE00229A4A /* libReact-RCTText.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-RCTText.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		06A481D127AD0FAE00229A4A /* libReactCommon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReactCommon.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		06A481D227AD0FAE00229A4A /* libRNCAsyncStorage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libRNCAsyncStorage.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		06A481D327AD0FAE00229A4A /* libRNCCheckbox.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libRNCCheckbox.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		06A481D427AD0FAE00229A4A /* libRNCClipboard.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libRNCClipboard.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		06A481D527AD0FAE00229A4A /* libRNCPicker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libRNCPicker.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		06A481D627AD0FAE00229A4A /* libRNGestureHandler.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libRNGestureHandler.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		06A481D727AD0FAE00229A4A /* libRNIap.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libRNIap.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		06A481D827AD0FAE00229A4A /* libRNKeychain.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libRNKeychain.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		06A481D927AD0FAE00229A4A /* libRNLocalize.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libRNLocalize.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		06A481DA27AD0FAE00229A4A /* libRNPermissions.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libRNPermissions.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		06A481DB27AD0FAE00229A4A /* libRNReanimated.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libRNReanimated.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		06A481DC27AD0FAE00229A4A /* libRNScreens.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libRNScreens.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		06A481DD27AD0FAE00229A4A /* libRNSVG.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libRNSVG.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		06A481DE27AD0FAE00229A4A /* libTouchID.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libTouchID.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07F961A680F5B00A75B9A /* BlockMonitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlockMonitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = BlockMonitor/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = BlockMonitor/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = BlockMonitor/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = BlockMonitor/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = BlockMonitor/main.m; sourceTree = "<group>"; };
+		1F8240E6B39FD46AEECD2CC3 /* Pods-BlockMonitor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlockMonitor.release.xcconfig"; path = "Target Support Files/Pods-BlockMonitor/Pods-BlockMonitor.release.xcconfig"; sourceTree = "<group>"; };
+		2AC557A6038AE86C84F22559 /* Pods-BlockMonitor-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlockMonitor-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-BlockMonitor-tvOS/Pods-BlockMonitor-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		2D02E47B1E0B4A5D006451C7 /* BlockMonitor-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BlockMonitor-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* BlockMonitor-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BlockMonitor-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D1B6384A1A2324E16580FFA /* libPods-BlockMonitor-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BlockMonitor-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		75EEBD3C557E6DF5948416C0 /* Pods-BlockMonitor-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlockMonitor-tvOS.release.xcconfig"; path = "Target Support Files/Pods-BlockMonitor-tvOS/Pods-BlockMonitor-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		7ECCF9F5DF68B8E043A9F51C /* Pods-BlockMonitor-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlockMonitor-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-BlockMonitor-tvOSTests/Pods-BlockMonitor-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		A37404ECC0297E5F845C344E /* libPods-BlockMonitor-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BlockMonitor-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A70AC95F45CA9F217E5DEE97 /* libPods-BlockMonitor.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BlockMonitor.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A95A873138BEDF4EBEAC8975 /* Pods-BlockMonitor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlockMonitor.debug.xcconfig"; path = "Target Support Files/Pods-BlockMonitor/Pods-BlockMonitor.debug.xcconfig"; sourceTree = "<group>"; };
+		B707FCC76074AF5D2D74BE52 /* Pods-BlockMonitor-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlockMonitor-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-BlockMonitor-tvOSTests/Pods-BlockMonitor-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D8D1344FF6D9530C0004A98B /* Pods-BlockMonitorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlockMonitorTests.release.xcconfig"; path = "Target Support Files/Pods-BlockMonitorTests/Pods-BlockMonitorTests.release.xcconfig"; sourceTree = "<group>"; };
+		E094173DE2807A7CFBB3339B /* Pods-BlockMonitorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlockMonitorTests.debug.xcconfig"; path = "Target Support Files/Pods-BlockMonitorTests/Pods-BlockMonitorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EA132C703152BD78489B13D7 /* libPods-BlockMonitorTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BlockMonitorTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14012637CEB4674BA0C22EAD /* libPods-BlockMonitorTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06A481F827AD0FAE00229A4A /* libRNPermissions.a in Frameworks */,
+				06A481FB27AD0FAE00229A4A /* libRNSVG.a in Frameworks */,
+				06A481FC27AD0FAF00229A4A /* libTouchID.a in Frameworks */,
+				06A481F227AD0FAE00229A4A /* libRNCClipboard.a in Frameworks */,
+				06A481E227AD0FAE00229A4A /* libReact-CoreModules.a in Frameworks */,
+				06A481E127AD0FAE00229A4A /* libReact-Core.a in Frameworks */,
+				06A481E627AD0FAE00229A4A /* libreact-native-safe-area-context.a in Frameworks */,
+				06A481F327AD0FAE00229A4A /* libRNCPicker.a in Frameworks */,
+				06A481EE27AD0FAE00229A4A /* libReact-RCTText.a in Frameworks */,
+				06A481EB27AD0FAE00229A4A /* libReact-RCTLinking.a in Frameworks */,
+				06A481E727AD0FAE00229A4A /* libreact-native-version-number.a in Frameworks */,
+				06A481E527AD0FAE00229A4A /* libreact-native-notifications.a in Frameworks */,
+				06A481F027AD0FAE00229A4A /* libRNCAsyncStorage.a in Frameworks */,
+				06A481E827AD0FAE00229A4A /* libReact-RCTAnimation.a in Frameworks */,
+				06A481DF27AD0FAE00229A4A /* libAppAuth.a in Frameworks */,
+				06A481E327AD0FAE00229A4A /* libreact-native-app-auth.a in Frameworks */,
+				06A481EC27AD0FAE00229A4A /* libReact-RCTNetwork.a in Frameworks */,
+				06A481C027AD0F2500229A4A /* libAppAuth.a in Frameworks */,
+				06A481F527AD0FAE00229A4A /* libRNIap.a in Frameworks */,
+				06A481F927AD0FAE00229A4A /* libRNReanimated.a in Frameworks */,
+				06A481F427AD0FAE00229A4A /* libRNGestureHandler.a in Frameworks */,
+				06A481F727AD0FAE00229A4A /* libRNLocalize.a in Frameworks */,
+				06A481E027AD0FAE00229A4A /* libPermission-Camera.a in Frameworks */,
+				06A481F127AD0FAE00229A4A /* libRNCCheckbox.a in Frameworks */,
+				06A481E427AD0FAE00229A4A /* libreact-native-camera.a in Frameworks */,
+				06A481E927AD0FAE00229A4A /* libReact-RCTBlob.a in Frameworks */,
+				06A481EF27AD0FAE00229A4A /* libReactCommon.a in Frameworks */,
+				06A481F627AD0FAE00229A4A /* libRNKeychain.a in Frameworks */,
+				06A481ED27AD0FAE00229A4A /* libReact-RCTSettings.a in Frameworks */,
+				06A481EA27AD0FAE00229A4A /* libReact-RCTImage.a in Frameworks */,
+				06A481FA27AD0FAE00229A4A /* libRNScreens.a in Frameworks */,
+				2856C1882483592D214A3404 /* libPods-BlockMonitor.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4781E0B4A5D006451C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0053BB2E98405C2A3F7F583E /* libPods-BlockMonitor-tvOS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E48D1E0B4A5D006451C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2935B77F570D283E5850A92 /* libPods-BlockMonitor-tvOSTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* BlockMonitorTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* BlockMonitorTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = BlockMonitorTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* BlockMonitor */ = {
+			isa = PBXGroup;
+			children = (
+				061C29BA245899B2005866E1 /* BlockMonitor.entitlements */,
+				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = BlockMonitor;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				06A481C127AD0FAE00229A4A /* libAppAuth.a */,
+				06A481C227AD0FAE00229A4A /* libPermission-Camera.a */,
+				06A481C327AD0FAE00229A4A /* libReact-Core.a */,
+				06A481C427AD0FAE00229A4A /* libReact-CoreModules.a */,
+				06A481C527AD0FAE00229A4A /* libreact-native-app-auth.a */,
+				06A481C627AD0FAE00229A4A /* libreact-native-camera.a */,
+				06A481C727AD0FAE00229A4A /* libreact-native-notifications.a */,
+				06A481C827AD0FAE00229A4A /* libreact-native-safe-area-context.a */,
+				06A481C927AD0FAE00229A4A /* libreact-native-version-number.a */,
+				06A481CA27AD0FAE00229A4A /* libReact-RCTAnimation.a */,
+				06A481CB27AD0FAE00229A4A /* libReact-RCTBlob.a */,
+				06A481CC27AD0FAE00229A4A /* libReact-RCTImage.a */,
+				06A481CD27AD0FAE00229A4A /* libReact-RCTLinking.a */,
+				06A481CE27AD0FAE00229A4A /* libReact-RCTNetwork.a */,
+				06A481CF27AD0FAE00229A4A /* libReact-RCTSettings.a */,
+				06A481D027AD0FAE00229A4A /* libReact-RCTText.a */,
+				06A481D127AD0FAE00229A4A /* libReactCommon.a */,
+				06A481D227AD0FAE00229A4A /* libRNCAsyncStorage.a */,
+				06A481D327AD0FAE00229A4A /* libRNCCheckbox.a */,
+				06A481D427AD0FAE00229A4A /* libRNCClipboard.a */,
+				06A481D527AD0FAE00229A4A /* libRNCPicker.a */,
+				06A481D627AD0FAE00229A4A /* libRNGestureHandler.a */,
+				06A481D727AD0FAE00229A4A /* libRNIap.a */,
+				06A481D827AD0FAE00229A4A /* libRNKeychain.a */,
+				06A481D927AD0FAE00229A4A /* libRNLocalize.a */,
+				06A481DA27AD0FAE00229A4A /* libRNPermissions.a */,
+				06A481DB27AD0FAE00229A4A /* libRNReanimated.a */,
+				06A481DC27AD0FAE00229A4A /* libRNScreens.a */,
+				06A481DD27AD0FAE00229A4A /* libRNSVG.a */,
+				06A481DE27AD0FAE00229A4A /* libTouchID.a */,
+				06A481BF27AD0F2500229A4A /* libAppAuth.a */,
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
+				A70AC95F45CA9F217E5DEE97 /* libPods-BlockMonitor.a */,
+				4D1B6384A1A2324E16580FFA /* libPods-BlockMonitor-tvOS.a */,
+				A37404ECC0297E5F845C344E /* libPods-BlockMonitor-tvOSTests.a */,
+				EA132C703152BD78489B13D7 /* libPods-BlockMonitorTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				065B179527AC68C100ED5DC1 /* RobotoBlack.ttf */,
+				065B179427AC68C100ED5DC1 /* RobotoRegular.ttf */,
+				065B179327AC68C100ED5DC1 /* RobotoThin.ttf */,
+				13B07FAE1A68108700A75B9A /* BlockMonitor */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* BlockMonitorTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				9579DE271EFF6F6E845BAAF0 /* Pods */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* BlockMonitor.app */,
+				00E356EE1AD99517003FC87E /* BlockMonitorTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* BlockMonitor-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* BlockMonitor-tvOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9579DE271EFF6F6E845BAAF0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A95A873138BEDF4EBEAC8975 /* Pods-BlockMonitor.debug.xcconfig */,
+				1F8240E6B39FD46AEECD2CC3 /* Pods-BlockMonitor.release.xcconfig */,
+				2AC557A6038AE86C84F22559 /* Pods-BlockMonitor-tvOS.debug.xcconfig */,
+				75EEBD3C557E6DF5948416C0 /* Pods-BlockMonitor-tvOS.release.xcconfig */,
+				B707FCC76074AF5D2D74BE52 /* Pods-BlockMonitor-tvOSTests.debug.xcconfig */,
+				7ECCF9F5DF68B8E043A9F51C /* Pods-BlockMonitor-tvOSTests.release.xcconfig */,
+				E094173DE2807A7CFBB3339B /* Pods-BlockMonitorTests.debug.xcconfig */,
+				D8D1344FF6D9530C0004A98B /* Pods-BlockMonitorTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* BlockMonitorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "BlockMonitorTests" */;
+			buildPhases = (
+				84FBE4A5D171EAB2762402FD /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = BlockMonitorTests;
+			productName = BlockMonitorTests;
+			productReference = 00E356EE1AD99517003FC87E /* BlockMonitorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* BlockMonitor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "BlockMonitor" */;
+			buildPhases = (
+				8FA865750CB8572689C400D5 /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				77124A20248BF1B5A096ED1E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlockMonitor;
+			productName = BlockMonitor;
+			productReference = 13B07F961A680F5B00A75B9A /* BlockMonitor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D02E47A1E0B4A5D006451C7 /* BlockMonitor-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "BlockMonitor-tvOS" */;
+			buildPhases = (
+				E14902450746AB8F23501DD1 /* [CP] Check Pods Manifest.lock */,
+				FD10A7F122414F3F0027D42C /* Start Packager */,
+				2D02E4771E0B4A5D006451C7 /* Sources */,
+				2D02E4781E0B4A5D006451C7 /* Frameworks */,
+				2D02E4791E0B4A5D006451C7 /* Resources */,
+				2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BlockMonitor-tvOS";
+			productName = "BlockMonitor-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* BlockMonitor-tvOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D02E48F1E0B4A5D006451C7 /* BlockMonitor-tvOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "BlockMonitor-tvOSTests" */;
+			buildPhases = (
+				0F355D80CC9D2FDFBE032730 /* [CP] Check Pods Manifest.lock */,
+				2D02E48C1E0B4A5D006451C7 /* Sources */,
+				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
+				2D02E48E1E0B4A5D006451C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
+			);
+			name = "BlockMonitor-tvOSTests";
+			productName = "BlockMonitor-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* BlockMonitor-tvOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1200;
+				ORGANIZATIONNAME = Facebook;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = 7BH8AJK3Z7;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						DevelopmentTeam = 7BH8AJK3Z7;
+					};
+					2D02E47A1E0B4A5D006451C7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					2D02E48F1E0B4A5D006451C7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2D02E47A1E0B4A5D006451C7;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "BlockMonitor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* BlockMonitor */,
+				00E356ED1AD99517003FC87E /* BlockMonitorTests */,
+				2D02E47A1E0B4A5D006451C7 /* BlockMonitor-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* BlockMonitor-tvOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				065B179927AC68C100ED5DC1 /* RobotoRegular.ttf in Resources */,
+				065B179727AC68C100ED5DC1 /* RobotoThin.ttf in Resources */,
+				065B179B27AC68C100ED5DC1 /* RobotoBlack.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				065B179A27AC68C100ED5DC1 /* RobotoBlack.ttf in Resources */,
+				065B179827AC68C100ED5DC1 /* RobotoRegular.ttf in Resources */,
+				065B179627AC68C100ED5DC1 /* RobotoThin.ttf in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4791E0B4A5D006451C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E48E1E0B4A5D006451C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		0F355D80CC9D2FDFBE032730 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BlockMonitor-tvOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native Code And Images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		77124A20248BF1B5A096ED1E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BlockMonitor/Pods-BlockMonitor-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BlockMonitor/Pods-BlockMonitor-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84FBE4A5D171EAB2762402FD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BlockMonitorTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8FA865750CB8572689C400D5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BlockMonitor-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E14902450746AB8F23501DD1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BlockMonitor-tvOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F122414F3F0027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* BlockMonitorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4771E0B4A5D006451C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */,
+				2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E48C1E0B4A5D006451C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DCD954D1E0B4F2C00145EB5 /* BlockMonitorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* BlockMonitor */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D02E47A1E0B4A5D006451C7 /* BlockMonitor-tvOS */;
+			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		13B07FB11A68108700A75B9A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13B07FB21A68108700A75B9A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			path = BlockMonitor;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E094173DE2807A7CFBB3339B /* Pods-BlockMonitorTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7BH8AJK3Z7;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BlockMonitorTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlockMonitor.app/BlockMonitor";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8D1344FF6D9530C0004A98B /* Pods-BlockMonitorTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = 7BH8AJK3Z7;
+				INFOPLIST_FILE = BlockMonitorTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlockMonitor.app/BlockMonitor";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A95A873138BEDF4EBEAC8975 /* Pods-BlockMonitor.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = BlockMonitor/BlockMonitor.entitlements;
+				CURRENT_PROJECT_VERSION = 65;
+				DEAD_CODE_STRIPPING = NO;
+				DEVELOPMENT_TEAM = 7BH8AJK3Z7;
+				"EXCLUDED_ARCHS[sdk=*]" = "";
+				INFOPLIST_FILE = BlockMonitor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/AppAuth\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/DoubleConversion\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FBReactNativeSpec\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Folly\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Permission-Camera\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RCTRestart\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RCTTypeSafety\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNCAsyncStorage\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNCCheckbox\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNCClipboard\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNCMaskedView\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNCPicker\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNGestureHandler\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNIap\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNKeychain\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNLocalize\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNPermissions\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNReanimated\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNSVG\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNScreens\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-Core\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-CoreModules\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTAnimation\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTBlob\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTImage\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTLinking\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTNetwork\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTSettings\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTText\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTVibration\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-cxxreact\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-jsi\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-jsiexecutor\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-jsinspector\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/TouchID\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Yoga\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/glog\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/react-native-app-auth\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/react-native-camera\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/react-native-notifications\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/react-native-safe-area-context\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/react-native-version-number\"",
+				);
+				MARKETING_VERSION = 3.2.1;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.examp.blockmonitor;
+				PRODUCT_NAME = BlockMonitor;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F8240E6B39FD46AEECD2CC3 /* Pods-BlockMonitor.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = BlockMonitor/BlockMonitor.entitlements;
+				CURRENT_PROJECT_VERSION = 65;
+				DEVELOPMENT_TEAM = 7BH8AJK3Z7;
+				"EXCLUDED_ARCHS[sdk=*]" = "";
+				INFOPLIST_FILE = BlockMonitor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/AppAuth\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/DoubleConversion\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FBReactNativeSpec\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Folly\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Permission-Camera\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RCTRestart\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RCTTypeSafety\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNCAsyncStorage\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNCCheckbox\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNCClipboard\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNCMaskedView\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNCPicker\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNGestureHandler\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNIap\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNKeychain\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNLocalize\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNPermissions\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNReanimated\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNSVG\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNScreens\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-Core\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-CoreModules\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTAnimation\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTBlob\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTImage\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTLinking\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTNetwork\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTSettings\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTText\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTVibration\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-cxxreact\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-jsi\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-jsiexecutor\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-jsinspector\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/TouchID\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Yoga\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/glog\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/react-native-app-auth\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/react-native-camera\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/react-native-notifications\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/react-native-safe-area-context\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/react-native-version-number\"",
+				);
+				MARKETING_VERSION = 3.2.1;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.examp.blockmonitor;
+				PRODUCT_NAME = BlockMonitor;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		2D02E4971E0B4A5E006451C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AC557A6038AE86C84F22559 /* Pods-BlockMonitor-tvOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "BlockMonitor-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.BlockMonitor-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
+			};
+			name = Debug;
+		};
+		2D02E4981E0B4A5E006451C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75EEBD3C557E6DF5948416C0 /* Pods-BlockMonitor-tvOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "BlockMonitor-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.BlockMonitor-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
+			};
+			name = Release;
+		};
+		2D02E4991E0B4A5E006451C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B707FCC76074AF5D2D74BE52 /* Pods-BlockMonitor-tvOSTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "BlockMonitor-tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.BlockMonitor-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlockMonitor-tvOS.app/BlockMonitor-tvOS";
+				TVOS_DEPLOYMENT_TARGET = 12.0;
+			};
+			name = Debug;
+		};
+		2D02E49A1E0B4A5E006451C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7ECCF9F5DF68B8E043A9F51C /* Pods-BlockMonitor-tvOSTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "BlockMonitor-tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.BlockMonitor-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlockMonitor-tvOS.app/BlockMonitor-tvOS";
+				TVOS_DEPLOYMENT_TARGET = 12.0;
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				EXCLUDED_ARCHS = "";
+				"EXCLUDED_ARCHS[sdk=*]" = arm64;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=*]" = arm64;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "BlockMonitorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "BlockMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "BlockMonitor-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D02E4971E0B4A5E006451C7 /* Debug */,
+				2D02E4981E0B4A5E006451C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "BlockMonitor-tvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D02E4991E0B4A5E006451C7 /* Debug */,
+				2D02E49A1E0B4A5E006451C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "BlockMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}
